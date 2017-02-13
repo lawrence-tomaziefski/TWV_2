@@ -1,0 +1,772 @@
+index,id_unit,id_unit_role,id_num,vm_unit_type,unit_type,grouped_unit_type,vignette,echelon,joint_phase,role,Mine_or_IED,Small_Caliber,Side_IED_or_EFP,RPG,Medium_Caliber,IDF,Non_Kinetic,Trafficability,Soft_Soil,Max_Speed,Cross_Country_Speed,Dash_Speed,Roll_Over_Potential,Turning_Diameter,Fording,mobility,force_protection,deep,close,support,on_road,off_road
+1,1,2,A10,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Command and Control,8,6,8,8,8,6,6,8,5,6,6,8,6,5,6,50,50,0,10,90,50,50
+2,1,3,A10,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Logistics Transport,8,6,8,8,8,6,6,8,5,6,6,8,6,5,6,50,50,0,30,70,90,10
+3,1,3,A13,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Logistics Transport,20,5,10,10,5,9,5,5,5,5,5,5,5,2,4,36,64,0,10,90,95,5
+4,1,8,A13,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Prime Mover,20,5,10,10,5,9,5,5,5,5,5,5,5,2,4,36,64,0,10,90,95,5
+5,3,11,A15,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,ABCT,III,Logistics Transport,10,10,0,10,10,0,0,10,20,0,10,0,0,20,0,60,40,0,50,50,90,10
+6,4,14,A16,Combined Arms BN HQ,Combined Arms BN HQ,BCT BN or BDE HQs,Vignette 1,ABCT,III,Command and Control,10,10,10,5,0,5,0,20,20,5,10,5,0,0,0,60,40,0,100,0,90,10
+7,4,15,A16,Combined Arms BN HQ,Combined Arms BN HQ,BCT BN or BDE HQs,Vignette 1,ABCT,III,Logistics Transport,20,20,5,10,0,0,0,20,10,5,0,0,5,0,5,45,55,0,100,0,90,10
+8,5,16,A18,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,8,10,7,1,10,8,1,15,10,3,7,1,7,5,7,55,45,0,90,10,40,60
+9,5,17,A18,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Logistics Transport,8,10,7,1,10,8,1,15,10,3,7,1,7,5,7,55,45,0,90,10,70,30
+10,1,2,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Command and Control,8,20,10,8,2,3,2,15,7,0,2,18,2,2,1,47,53,0,50,50,60,40
+11,1,3,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Logistics Transport,20,20,5,5,1,4,1,2,20,1,1,2,4,4,10,44,56,0,65,35,80,20
+12,1,20,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Maintenance Contact Truck,15,20,6,7,0,1,0,15,15,0,12,5,0,0,4,51,49,0,65,35,60,40
+13,6,21,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 1,ABCT,III,Command and Control,10,20,10,10,10,10,10,10,0,0,0,0,10,0,0,20,80,0,80,20,90,10
+14,6,22,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 1,ABCT,III,Logistics Transport,10,10,10,10,5,10,5,10,0,5,10,0,10,5,0,40,60,0,70,30,90,10
+15,6,23,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 1,ABCT,III,Admin-C4I,10,10,10,10,10,10,10,10,10,0,0,0,10,0,0,30,70,0,80,20,90,10
+16,7,26,A3,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,ABCT,III,Command and Control,20,20,5,5,0,5,5,10,5,5,0,5,5,5,5,40,60,0,80,20,60,40
+17,7,27,A3,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,ABCT,III,Logistics Transport,10,10,5,5,5,5,5,10,5,0,15,5,5,5,10,55,45,0,70,30,80,20
+18,8,30,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,ABCT,III,Command and Control,15,5,15,15,5,10,5,4,2,4,4,2,5,4,5,30,70,0,100,0,90,10
+19,8,31,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,ABCT,III,Admin-C4I,15,5,15,15,5,10,5,4,2,4,4,2,5,4,5,30,70,0,100,0,90,10
+20,8,33,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,ABCT,III,Retrans Vehicle,15,5,15,20,5,20,2,2,4,2,0,2,4,2,2,18,82,0,100,0,30,70
+21,9,34,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 1,ABCT,III,Command and Control,10,20,10,5,0,0,0,10,10,0,10,12,3,7,3,55,45,0,100,0,30,70
+22,9,35,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 1,ABCT,III,Gun Truck,13,20,12,8,0,0,0,10,10,4,6,0,5,5,7,47,53,0,100,0,50,50
+23,9,36,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 1,ABCT,III,Intel Collection,5,20,4,3,0,0,10,10,10,0,6,8,10,7,7,58,42,0,100,0,40,60
+24,10,37,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,ABCT,III,Command and Control,5,1,5,5,1,1,1,20,20,10,10,10,0,1,10,81,19,0,100,0,90,10
+25,10,38,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,ABCT,III,Logistics Transport,15,5,15,10,5,10,0,5,5,5,10,10,0,0,5,40,60,0,100,0,75,25
+26,10,39,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,ABCT,III,Admin-C4I,12,3,10,10,5,5,0,15,15,15,3,3,0,0,4,55,45,0,100,0,75,25
+27,10,43,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,ABCT,III,Maintenance Contact Truck,10,0,5,15,0,25,0,0,10,10,10,10,0,5,0,45,55,0,100,0,90,10
+28,11,44,A8,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 1,ABCT,III,Command and Control,8,20,5,17,0,0,0,4,9,10,16,5,6,0,0,50,50,0,95,5,80,20
+29,12,48,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,ABCT,III,Command and Control,10,10,10,4,10,6,5,7,6,5,7,6,4,6,4,45,55,0,90,10,60,40
+30,12,49,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,ABCT,III,Logistics Transport,15,10,5,5,10,5,4,3,6,3,10,3,10,8,3,46,54,0,90,10,60,40
+31,12,50,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,ABCT,III,Admin-C4I,20,10,5,5,5,4,4,2,4,3,20,10,2,5,1,47,53,0,90,10,60,40
+32,12,53,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,ABCT,III,Maintenance Contact Truck,7,6,6,3,6,4,3,7,5,8,7,15,10,12,1,65,35,0,100,0,60,40
+33,1,2,A10,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Command and Control,3,5,3,5,5,3,15,10,6,10,10,10,8,6,1,61,39,0,20,80,70,30
+34,1,3,A10,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,10,10,10,4,10,8,2,10,5,6,5,5,10,3,2,46,54,0,30,70,75,25
+35,2,5,A11,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Command and Control,10,10,10,10,10,5,5,5,5,5,5,5,5,5,5,40,60,0,5,95,95,5
+36,2,6,A11,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,8,8,8,8,8,6,6,5,7,7,7,7,5,5,5,48,52,0,5,95,95,5
+37,2,54,A11,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Admin-C4I,10,10,5,10,10,5,5,5,6,10,7,7,5,0,5,45,55,0,10,90,90,10
+38,1,2,A13,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Command and Control,10,5,5,5,5,20,3,9,7,10,5,10,3,1,2,47,53,0,10,90,90,10
+39,1,3,A13,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,10,5,5,5,5,20,3,9,7,10,5,10,3,1,2,47,53,0,10,90,90,10
+40,1,8,A13,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Prime Mover,10,5,5,5,5,20,3,9,7,10,5,10,3,1,2,47,53,0,10,90,90,10
+41,13,58,A14,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Command and Control,5,7,2,5,3,11,3,11,7,11,9,9,5,8,4,64,36,0,90,10,30,70
+42,13,59,A14,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Logistics Transport,10,10,3,10,3,7,3,10,8,8,5,2,5,8,8,54,46,0,70,30,80,20
+43,13,60,A14,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Admin-C4I,5,9,2,7,7,10,3,10,7,6,9,9,5,8,3,57,43,0,70,30,80,20
+44,13,62,A14,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Gun Truck,5,9,2,7,7,10,3,10,7,6,9,9,5,8,3,57,43,0,100,0,80,20
+45,13,63,A14,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Retrans Vehicle,5,7,2,5,3,11,3,11,7,11,9,9,5,8,4,64,36,0,100,0,30,70
+46,3,11,A15,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,ABCT,III,Logistics Transport,10,10,0,10,10,10,10,10,10,0,10,10,0,0,0,40,60,0,50,50,50,50
+47,4,14,A16,Combined Arms BN HQ,Combined Arms BN HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Command and Control,0,30,0,0,0,20,0,30,10,0,10,0,0,0,0,50,50,0,100,0,30,70
+48,4,15,A16,Combined Arms BN HQ,Combined Arms BN HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Logistics Transport,0,30,0,0,0,20,0,30,10,0,10,0,0,0,0,50,50,0,100,0,30,70
+49,5,16,A18,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Command and Control,2,8,2,2,8,13,1,15,10,6,12,4,4,6,7,64,36,0,90,10,30,70
+50,5,17,A18,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Logistics Transport,2,7,2,2,7,13,1,15,10,5,12,3,8,5,8,66,34,0,90,10,70,30
+51,1,2,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Command and Control,15,10,10,10,10,20,0,5,5,5,0,10,0,0,0,25,75,0,50,50,50,50
+52,1,3,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,15,10,10,10,10,20,0,5,5,5,0,10,0,0,0,25,75,0,65,35,70,30
+53,1,20,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Maintenance Contact Truck,15,10,10,10,10,20,0,5,5,5,0,10,0,0,0,25,75,0,65,35,60,40
+54,6,21,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Command and Control,10,15,10,0,0,10,0,15,0,0,15,15,10,0,0,55,45,0,80,20,30,70
+55,6,22,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Logistics Transport,10,15,10,0,0,10,0,15,0,0,15,15,10,0,0,55,45,0,70,30,40,60
+56,6,23,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 4,ABCT,III,Admin-C4I,15,15,15,15,0,5,0,5,0,0,10,0,15,5,0,35,65,0,80,20,40,60
+57,7,26,A3,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,ABCT,III,Command and Control,10,30,10,0,5,10,0,30,0,0,0,5,0,0,0,35,65,0,80,20,60,40
+58,7,27,A3,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,ABCT,III,Logistics Transport,10,30,10,0,0,5,0,30,0,0,0,5,5,5,0,45,55,0,70,30,60,40
+59,8,30,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,ABCT,III,Command and Control,15,10,15,2,0,5,2,15,10,2,10,2,2,10,0,51,49,0,100,0,75,25
+60,8,31,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,ABCT,III,Admin-C4I,5,5,10,10,0,15,0,10,10,10,5,10,0,10,0,55,45,0,100,0,75,25
+61,8,33,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,ABCT,III,Retrans Vehicle,10,3,10,10,2,15,1,13,5,0,15,4,5,2,5,49,51,0,100,0,20,80
+62,9,34,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 4,ABCT,III,Command and Control,15,5,15,0,0,15,0,20,0,0,15,10,5,0,0,50,50,0,100,0,30,70
+63,9,35,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 4,ABCT,III,Gun Truck,10,0,10,5,0,20,0,2,13,9,11,14,6,0,0,55,45,0,100,0,50,50
+64,9,36,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 4,ABCT,III,Intel Collection,7,0,7,5,0,14,0,9,20,0,8,11,14,5,0,67,33,0,100,0,30,70
+65,10,37,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,ABCT,III,Command and Control,15,0,15,15,0,20,0,10,10,6,0,9,0,0,0,35,65,0,100,0,100,0
+66,10,38,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,ABCT,III,Logistics Transport,15,0,10,15,12,15,0,15,8,0,0,8,0,2,0,33,67,0,100,0,90,10
+67,10,39,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,ABCT,III,Admin-C4I,15,0,0,20,0,20,0,15,10,0,0,0,10,10,0,45,55,0,90,10,90,10
+68,10,43,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,ABCT,III,Maintenance Contact Truck,10,0,5,20,5,10,0,20,10,5,0,0,5,5,5,50,50,0,100,0,80,20
+69,11,44,A8,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 4,ABCT,III,Command and Control,15,15,5,10,3,0,0,15,3,6,10,0,9,9,0,52,48,0,95,5,75,25
+70,12,48,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,ABCT,III,Command and Control,17,22,7,12,10,5,0,7,5,5,5,0,0,5,0,27,73,0,90,10,70,30
+71,12,49,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,ABCT,III,Logistics Transport,17,17,7,10,7,5,0,12,5,5,5,0,5,5,0,37,63,0,90,10,70,30
+72,12,50,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,ABCT,III,Admin-C4I,20,20,5,5,15,5,0,10,0,0,5,10,0,5,0,30,70,0,90,10,70,30
+73,12,53,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,ABCT,III,Maintenance Contact Truck,15,15,7,10,7,5,0,16,5,5,5,0,5,5,0,41,59,0,100,0,80,20
+74,1,2,A10,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Command and Control,7,7,7,7,7,7,9,8,6,7,7,8,6,6,1,49,51,0,20,80,70,30
+75,1,3,A10,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Logistics Transport,9,9,9,7,9,6,2,10,6,5,3,7,9,7,2,49,51,0,30,70,75,25
+76,2,5,A11,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 2,EAB,III,Command and Control,10,10,10,10,10,5,5,5,5,5,5,5,5,5,5,40,60,0,5,95,95,5
+77,2,6,A11,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 2,EAB,III,Logistics Transport,10,10,10,10,10,5,5,5,5,5,5,5,5,5,5,40,60,0,5,95,90,10
+78,2,54,A11,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 2,EAB,III,Admin-C4I,10,10,5,10,10,5,5,5,5,10,5,5,10,0,5,45,55,0,10,90,90,10
+79,1,2,A13,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Command and Control,20,5,8,10,6,10,5,5,5,7,5,5,5,1,3,36,64,0,10,90,95,5
+80,1,3,A13,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Logistics Transport,20,5,8,10,5,10,5,7,6,6,6,5,5,1,1,37,63,0,10,90,95,5
+81,1,8,A13,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Prime Mover,20,5,8,10,6,10,5,5,5,7,5,5,5,1,3,36,64,0,10,90,95,5
+82,13,58,A14,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,ABCT,III,Command and Control,10,10,5,5,5,10,5,5,10,10,7,5,5,5,3,50,50,0,90,10,30,70
+83,13,59,A14,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,ABCT,III,Logistics Transport,10,10,3,10,3,7,3,10,8,8,5,2,5,8,8,54,46,0,70,30,80,20
+84,13,63,A14,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,ABCT,III,Retrans Vehicle,2,3,1,3,3,15,7,15,10,5,8,5,8,8,7,66,34,0,100,0,30,70
+85,3,11,A15,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,ABCT,III,Logistics Transport,10,10,0,10,10,10,0,10,10,0,10,10,0,10,0,50,50,0,50,50,50,50
+86,4,14,A16,Combined Arms BN HQ,Combined Arms BN HQ,BCT BN or BDE HQs,Vignette 2,ABCT,III,Command and Control,5,20,0,0,0,5,0,45,10,0,10,5,0,0,0,70,30,0,100,0,30,70
+87,4,15,A16,Combined Arms BN HQ,Combined Arms BN HQ,BCT BN or BDE HQs,Vignette 2,ABCT,III,Logistics Transport,5,20,0,0,0,5,0,45,10,0,10,5,0,0,0,70,30,0,100,0,30,70
+88,5,16,A18,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,7,8,7,2,8,8,1,15,10,5,10,4,4,5,6,59,41,0,90,10,30,70
+89,5,17,A18,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Logistics Transport,7,8,7,2,8,8,1,15,10,4,10,4,5,5,6,59,41,0,90,10,70,30
+90,1,2,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Command and Control,15,20,15,5,0,5,0,10,10,5,5,10,0,0,0,40,60,0,50,50,50,50
+91,1,3,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Logistics Transport,20,25,15,5,0,5,0,10,5,10,0,5,0,0,0,30,70,0,65,35,70,30
+92,1,20,A1,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Maintenance Contact Truck,15,20,15,5,0,5,0,10,10,5,5,10,0,0,0,40,60,0,65,35,60,40
+93,6,21,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 2,ABCT,III,Command and Control,10,15,15,15,0,0,0,15,0,0,15,0,10,5,0,45,55,0,80,20,30,70
+94,6,22,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 2,ABCT,III,Logistics Transport,10,15,15,15,0,0,0,15,0,0,15,0,10,5,0,45,55,0,70,30,40,60
+95,6,23,A2,ABCT HQ,ABCT HQ,BCT BN or BDE HQs,Vignette 2,ABCT,III,Admin-C4I,15,15,15,15,0,5,0,5,0,0,10,0,15,5,0,35,65,0,80,20,40,60
+96,7,26,A3,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,ABCT,III,Command and Control,10,30,10,0,0,0,0,30,0,0,5,5,5,5,0,50,50,0,80,20,60,40
+97,7,27,A3,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,ABCT,III,Logistics Transport,0,40,0,0,0,0,0,40,0,0,5,5,5,5,0,60,40,0,70,30,60,40
+98,8,30,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,ABCT,III,Command and Control,15,10,15,5,0,10,2,15,2,2,10,2,2,10,0,43,57,0,100,0,75,25
+99,8,31,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,ABCT,III,Admin-C4I,11,6,11,11,0,11,6,11,6,5,6,5,0,11,0,44,56,0,100,0,75,25
+100,8,33,A4,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,ABCT,III,Retrans Vehicle,10,5,10,10,2,10,2,15,2,2,15,2,5,5,5,51,49,0,100,0,20,80
+101,9,34,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 2,ABCT,III,Command and Control,10,20,10,10,0,0,0,20,0,0,15,10,5,0,0,50,50,0,100,0,30,70
+102,9,35,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 2,ABCT,III,Gun Truck,10,25,5,10,0,0,0,2,5,9,11,14,6,0,3,50,50,0,100,0,50,50
+103,9,36,A5,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 2,ABCT,III,Intel Collection,0,25,0,15,0,0,0,9,8,0,8,11,14,10,0,60,40,0,100,0,30,70
+104,10,37,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,ABCT,III,Command and Control,12,2,10,15,2,10,2,10,10,6,6,6,3,3,3,47,53,0,100,0,100,0
+105,10,38,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,ABCT,III,Logistics Transport,15,2,10,15,12,8,0,12,2,2,0,8,2,12,0,38,62,0,100,0,90,10
+106,10,39,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,ABCT,III,Admin-C4I,15,0,0,20,0,20,0,15,10,0,0,0,10,10,0,45,55,0,90,10,90,10
+107,10,43,A6,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,ABCT,III,Maintenance Contact Truck,10,0,5,20,5,10,0,20,10,5,0,0,5,5,5,50,50,0,100,0,80,20
+108,11,44,A8,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 2,ABCT,III,Command and Control,15,15,5,10,3,0,0,15,13,0,0,6,9,9,0,52,48,0,95,5,75,25
+109,12,48,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,ABCT,III,Command and Control,17,17,7,10,7,5,0,12,5,5,5,0,5,5,0,37,63,0,90,10,70,30
+110,12,49,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,ABCT,III,Logistics Transport,17,17,7,10,7,5,0,12,5,5,5,0,5,5,0,37,63,0,90,10,70,30
+111,12,50,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,ABCT,III,Admin-C4I,20,20,5,5,15,5,0,10,0,0,5,10,0,5,0,30,70,0,90,10,70,30
+112,12,53,A9,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,ABCT,III,Maintenance Contact Truck,15,15,7,10,7,5,0,16,5,5,5,0,5,5,0,41,59,0,100,0,80,20
+113,14,65,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,IBCT,III,Command and Control,0,10,0,0,0,0,0,50,20,0,0,0,20,0,0,90,10,0,100,0,70,30
+114,14,66,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,IBCT,III,Gun Truck,0,10,0,0,0,0,0,50,10,0,10,0,20,0,0,90,10,0,100,0,50,50
+115,14,67,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,IBCT,III,Logistics Transport,0,10,0,0,0,0,0,20,20,20,0,0,30,0,0,90,10,0,30,70,80,20
+116,14,68,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,IBCT,III,Prime Mover,0,10,0,0,0,0,0,20,20,20,0,0,30,0,0,90,10,0,30,70,80,20
+117,14,69,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,IBCT,III,Recon,0,0,0,0,0,0,0,50,0,10,10,10,20,0,0,100,0,0,100,0,30,70
+118,15,71,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,IBCT,III,Admin-C4I,0,0,0,0,0,50,0,0,0,0,0,0,0,50,0,50,50,0,100,0,100,0
+119,15,72,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,IBCT,III,Command and Control,5,5,5,5,5,0,0,10,10,10,35,0,10,0,0,75,25,0,100,0,100,0
+120,15,74,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,IBCT,III,Logistics Transport,0,0,0,0,0,0,0,0,30,0,10,0,10,50,0,100,0,0,90,10,90,10
+121,15,75,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,IBCT,III,Maintenance Contact Truck,10,10,10,5,10,0,0,0,10,0,25,0,10,10,0,55,45,0,90,10,90,10
+122,15,76,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,IBCT,III,Prime Mover,20,0,20,0,0,0,0,0,10,0,0,0,0,50,0,60,40,0,100,0,100,0
+123,16,80,I12,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 1,IBCT,III,Command and Control,10,10,10,10,10,30,0,0,0,10,0,10,0,0,0,20,80,0,60,40,100,0
+124,17,85,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,IBCT,III,Command and Control,0,0,0,25,25,0,0,0,25,0,0,0,25,0,0,50,50,10,80,10,40,60
+125,17,87,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,IBCT,III,Gun Truck,0,25,0,25,0,0,0,25,25,0,0,0,0,0,0,50,50,20,70,10,20,80
+126,17,88,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,IBCT,III,Logistics Transport,0,0,0,25,25,0,0,0,0,25,0,25,0,0,0,50,50,0,70,30,90,10
+127,17,89,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,IBCT,III,Recon,0,15,0,0,0,0,0,15,25,0,15,0,15,15,0,85,15,20,70,10,20,80
+128,16,80,I15,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 1,IBCT,III,Command and Control,0,0,0,0,50,0,0,0,0,0,50,0,0,0,0,50,50,0,100,0,95,5
+129,19,99,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 1,IBCT,III,Admin-C4I,10,10,10,10,10,0,0,10,10,10,10,0,10,0,0,50,50,0,50,50,90,10
+130,19,100,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 1,IBCT,III,Command and Control,10,10,10,10,10,0,0,10,10,10,10,0,10,0,0,50,50,0,75,25,90,10
+131,19,101,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 1,IBCT,III,Gun Truck,10,10,10,10,10,0,0,10,10,10,10,0,10,0,0,50,50,0,100,0,90,10
+132,19,102,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 1,IBCT,III,Intel Collection,10,10,10,10,10,0,0,10,10,10,10,0,10,0,0,50,50,0,100,0,90,10
+133,19,103,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 1,IBCT,III,Logistics Transport,10,10,10,10,10,0,0,10,10,10,10,0,10,0,0,50,50,0,100,0,100,0
+134,20,105,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,20,0,0,0,20,0,0,60,0,0,0,0,0,0,0,60,40,0,25,75,90,10
+135,20,106,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 1,EAB,III,Gun Truck,20,0,0,0,20,0,0,40,0,20,0,0,0,0,0,60,40,0,25,75,90,10
+136,20,107,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 1,EAB,III,Military Police Operations,20,0,0,0,20,0,0,40,0,20,0,0,0,0,0,60,40,0,25,75,90,10
+137,20,108,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 1,EAB,III,Recon,20,0,0,0,20,0,0,40,0,20,0,0,0,0,0,60,40,0,25,75,90,10
+138,21,110,I18,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 1,IBCT,III,Ambulance,15,15,0,10,15,0,0,0,15,30,0,0,0,0,0,45,55,0,10,90,95,5
+139,21,111,I18,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 1,IBCT,III,Command and Control,20,20,5,5,20,0,0,0,15,0,0,15,0,0,0,30,70,0,0,100,100,0
+140,21,112,I18,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 1,IBCT,III,Logistics Transport,20,20,15,15,20,0,0,0,10,0,0,0,0,0,0,10,90,0,0,100,100,0
+141,22,114,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Admin-C4I,10,10,10,10,10,5,5,5,5,5,5,5,5,5,5,40,60,0,25,75,75,25
+142,22,115,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Ambulance,10,10,5,5,10,5,5,5,10,10,5,5,5,5,5,50,50,0,25,75,75,25
+143,22,116,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Command and Control,5,5,5,5,5,5,5,10,10,10,5,5,10,10,5,65,35,0,25,75,75,25
+144,22,118,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Logistics Transport,5,10,5,5,5,5,5,7,10,10,5,5,10,8,5,60,40,0,25,75,75,25
+145,22,119,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Maintenance Contact Truck,5,10,5,5,10,5,5,10,10,5,5,5,10,5,5,55,45,5,25,70,70,30
+146,22,120,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Prime Mover,5,10,5,5,5,5,5,7,10,10,5,5,10,8,5,60,40,5,25,70,75,25
+147,23,123,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Ambulance,15,5,10,15,15,5,0,0,5,15,0,0,10,5,0,35,65,0,70,30,50,50
+148,23,124,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Command and Control,20,0,15,15,10,15,0,10,0,10,0,5,0,0,0,25,75,0,100,0,50,50
+149,23,127,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Logistics Transport,20,0,20,20,0,0,0,20,20,0,0,0,0,0,0,40,60,0,60,40,80,20
+150,23,129,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Retrans Vehicle,20,0,20,20,0,0,0,30,0,10,0,0,0,0,0,40,60,0,100,0,10,90
+151,24,131,I21,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Admin-C4I,10,5,5,5,5,10,5,5,10,5,5,5,10,10,5,55,45,0,100,0,90,10
+152,24,132,I21,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Ambulance,5,2,5,1,1,5,1,10,10,10,10,10,10,10,10,80,20,0,100,0,90,10
+153,24,133,I21,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Command and Control,10,5,5,5,5,10,5,5,10,5,5,5,10,10,5,55,45,0,100,0,90,10
+154,24,136,I21,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Logistics Transport,5,2,5,1,1,5,1,10,10,10,10,10,10,10,10,80,20,0,100,0,90,10
+155,24,137,I21,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Retrans Vehicle,5,5,5,5,5,5,5,10,10,5,10,5,10,5,10,65,35,0,100,0,30,70
+156,25,139,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,IBCT,III,Command and Control,30,30,0,0,0,20,0,20,0,0,0,0,0,0,0,20,80,0,100,0,50,50
+157,25,141,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,IBCT,III,Logistics Transport,0,10,0,0,0,20,0,20,30,0,0,0,0,0,20,70,30,0,100,0,50,50
+158,25,142,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,IBCT,III,Prime Mover,10,10,0,0,0,10,0,0,30,0,10,0,20,0,10,70,30,0,100,0,50,50
+159,2,54,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 1,EAB,III,Admin-C4I,40,0,30,5,0,5,0,0,10,0,0,5,0,5,0,20,80,0,0,100,80,20
+160,2,5,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 1,EAB,III,Command and Control,20,20,0,0,20,0,0,20,0,0,0,20,0,0,0,40,60,0,60,40,70,30
+161,2,6,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 1,EAB,III,Logistics Transport,30,5,0,40,10,0,0,0,5,0,0,5,0,5,0,15,85,0,50,50,70,30
+162,2,143,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 1,EAB,III,Prime Mover,30,0,15,0,0,15,0,0,10,0,0,20,0,10,0,40,60,0,0,100,90,10
+163,17,85,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,IBCT,III,Command and Control,34,0,33,0,0,0,0,0,33,0,0,0,0,0,0,33,67,0,100,0,0,0
+164,17,87,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,IBCT,III,Gun Truck,0,0,0,5,20,8,0,0,7,0,50,0,10,0,0,67,33,0,100,0,0,0
+165,17,88,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,IBCT,III,Logistics Transport,30,0,0,10,20,0,0,0,20,0,0,0,20,0,0,40,60,0,100,0,0,0
+166,17,89,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 1,IBCT,III,Recon,0,0,0,5,20,8,0,0,7,0,50,0,10,0,0,67,33,0,100,0,0,0
+167,26,144,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Command and Control,40,0,0,20,0,0,0,0,10,5,0,0,20,5,0,40,60,0,100,0,95,5
+168,26,146,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Gun Truck,40,0,0,20,0,0,0,0,10,5,0,0,20,5,0,40,60,0,100,0,95,5
+169,26,147,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Recon,40,0,0,20,0,0,0,0,10,5,0,0,20,5,0,40,60,0,100,0,80,20
+170,22,114,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Admin-C4I,15,10,15,10,10,0,0,5,15,0,0,0,10,0,10,40,60,5,10,85,95,5
+171,22,115,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Ambulance,0,5,0,0,5,0,0,20,20,20,10,20,0,0,0,90,10,5,10,85,95,5
+172,22,116,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Command and Control,5,5,5,5,5,0,0,5,15,5,10,10,20,0,10,75,25,5,10,85,95,5
+173,22,118,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Logistics Transport,10,10,10,10,10,0,0,0,20,0,10,0,20,0,0,50,50,5,10,85,95,5
+174,22,119,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Maintenance Contact Truck,10,10,10,10,10,0,0,0,20,0,10,0,20,0,0,50,50,5,10,85,95,5
+175,22,120,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 1,EAB,III,Prime Mover,10,10,10,10,10,0,0,20,20,0,10,0,0,0,0,50,50,5,10,85,95,5
+176,26,144,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Command and Control,20,10,0,10,0,0,0,10,20,10,10,0,10,0,0,60,40,0,100,0,40,60
+177,26,146,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Gun Truck,20,10,0,10,0,0,0,20,20,20,0,0,0,0,0,60,40,0,100,0,40,60
+178,26,147,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Recon,0,20,0,10,0,0,0,20,30,10,10,0,0,0,0,70,30,0,100,0,40,60
+179,27,149,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 1,EAB,III,Admin-C4I,5,5,0,10,30,30,0,10,0,0,0,0,0,5,5,20,80,0,0,100,0,100
+180,27,150,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 1,EAB,III,Command and Control,15,0,15,10,10,0,0,10,10,0,0,0,10,15,5,50,50,0,0,100,0,100
+181,27,152,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 1,EAB,III,Logistics Transport,10,10,10,10,10,0,0,5,5,10,0,0,10,15,5,50,50,0,0,100,50,50
+182,27,153,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 1,EAB,III,Prime Mover,15,5,15,10,10,0,0,5,10,0,0,0,10,10,10,45,55,0,0,100,50,50
+183,28,156,I3,IBCT HQ,IBCT HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Command and Control,10,15,0,2,5,0,0,7,5,12,5,20,7,8,4,68,32,0,85,15,90,10
+184,26,144,I4,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Command and Control,20,0,0,10,30,0,0,5,10,5,5,0,10,3,2,40,60,0,100,0,80,20
+185,26,146,I4,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Gun Truck,30,0,0,20,20,3,0,0,3,5,3,0,3,10,3,27,73,0,100,0,80,20
+186,1,159,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Admin-C4I,20,20,5,0,10,0,0,25,0,0,10,0,10,0,0,45,55,0,0,100,100,0
+187,1,2,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Command and Control,15,20,0,15,5,0,0,10,15,0,0,10,0,10,0,45,55,0,10,90,90,10
+188,1,160,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Gun Truck,15,20,0,15,10,0,0,15,0,0,0,20,0,5,0,40,60,0,10,90,90,10
+189,1,3,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Logistics Transport,15,15,15,15,15,0,0,5,0,20,0,0,0,0,0,25,75,0,10,90,90,10
+190,1,20,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Maintenance Contact Truck,10,20,10,5,5,0,0,10,0,0,0,0,20,20,0,50,50,0,0,100,100,0
+191,1,8,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Prime Mover,10,20,0,20,20,20,0,0,10,0,0,0,0,0,0,10,90,0,10,90,90,10
+192,26,146,I6,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Gun Truck,30,20,30,5,5,0,0,0,0,0,0,10,0,0,0,10,90,0,90,10,40,60
+193,26,147,I6,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 1,IBCT,III,Recon,0,10,0,0,0,0,0,10,0,20,10,20,10,20,0,90,10,0,90,10,30,70
+194,51,290,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Admin-C4I,0,20,0,20,13,1,2,15,1,20,2,2,1,1,2,44,56,0,95,5,55,45
+195,51,291,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Ambulance,0,20,0,10,10,0,0,20,5,25,10,0,0,0,0,60,40,0,98,2,55,45
+196,51,292,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Command and Control,0,11,0,11,2,2,0,10,7,20,20,10,2,0,5,74,26,0,95,5,55,45
+197,51,294,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Logistics Transport,0,20,0,10,5,0,0,20,5,25,10,0,0,5,0,65,35,0,95,5,60,40
+198,29,162,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Ambulance,0,40,0,0,0,20,0,40,0,0,0,0,0,0,0,40,60,0,80,20,90,10
+199,29,163,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Command and Control,0,40,0,0,0,20,0,40,0,0,0,0,0,0,0,40,60,0,85,15,90,10
+200,29,164,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Gun Truck,0,40,0,0,0,20,0,40,0,0,0,0,0,0,0,40,60,0,85,15,90,10
+201,29,165,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Logistics Transport,0,40,0,0,0,20,0,40,0,0,0,0,0,0,0,40,60,0,75,25,90,10
+202,30,168,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,IBCT,III,Command and Control,10,5,5,5,5,5,5,10,5,5,5,5,20,5,5,60,40,0,95,5,95,5
+203,30,170,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,IBCT,III,Logistics Transport,5,5,5,5,5,5,5,5,10,10,5,10,10,10,5,65,35,0,100,0,95,5
+204,30,171,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,IBCT,III,Retrans Vehicle,5,5,5,5,5,5,5,10,10,0,10,10,10,10,5,65,35,0,90,10,75,25
+205,18,91,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,IBCT,III,Admin-C4I,15,5,5,15,5,10,0,0,10,5,0,0,5,5,20,45,55,0,80,20,50,50
+206,18,92,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,IBCT,III,Command and Control,5,10,5,15,5,5,5,0,10,5,0,5,10,10,10,50,50,0,80,20,50,50
+207,18,94,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,IBCT,III,Logistics Transport,10,10,10,15,10,0,0,0,10,5,0,0,10,10,10,45,55,0,80,20,75,25
+208,18,95,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,IBCT,III,Maintenance Contact Truck,10,5,10,15,5,10,0,0,15,10,0,0,5,0,15,45,55,0,80,20,50,50
+209,18,96,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,IBCT,III,Prime Mover,15,5,15,10,5,10,0,0,10,0,0,0,5,10,15,40,60,0,85,15,50,50
+210,14,65,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,IBCT,III,Command and Control,10,20,10,10,10,0,0,20,0,5,0,5,10,0,0,40,60,0,100,0,90,10
+211,14,66,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,IBCT,III,Gun Truck,5,20,0,5,0,0,0,20,10,20,10,5,5,0,0,70,30,0,100,0,80,20
+212,14,67,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,IBCT,III,Logistics Transport,5,20,10,10,5,10,0,5,5,5,0,5,20,0,0,40,60,0,80,20,90,10
+213,14,68,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,IBCT,III,Prime Mover,5,20,10,10,5,10,0,5,5,5,0,5,20,0,0,40,60,0,80,20,90,10
+214,14,69,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,IBCT,III,Recon,0,5,0,0,5,0,0,30,0,20,0,10,10,10,10,90,10,0,90,0,70,30
+215,15,71,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,IBCT,III,Admin-C4I,0,0,0,0,0,75,0,5,10,0,0,10,0,0,0,25,75,0,100,0,0,100
+216,15,72,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,IBCT,III,Command and Control,10,10,10,10,10,10,0,5,5,10,5,5,5,5,0,40,60,0,95,5,50,50
+217,15,74,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,IBCT,III,Logistics Transport,5,10,5,10,10,10,5,10,5,10,0,0,10,10,0,45,55,0,95,5,50,50
+218,15,75,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,IBCT,III,Maintenance Contact Truck,5,5,5,5,5,15,0,0,15,15,0,15,15,0,0,60,40,0,90,10,50,50
+219,15,76,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,IBCT,III,Prime Mover,10,10,10,15,10,15,10,0,5,0,0,0,5,10,0,20,80,0,90,10,50,50
+220,16,80,I12,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 2,IBCT,III,Command and Control,5,5,0,5,5,25,0,0,10,20,0,25,0,0,0,55,45,0,0,100,95,5
+221,17,85,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,IBCT,III,Command and Control,10,5,10,10,10,5,0,0,0,10,15,10,15,0,0,50,50,0,90,10,50,50
+222,17,87,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,IBCT,III,Gun Truck,5,10,5,5,5,0,0,10,10,5,10,10,10,5,10,70,30,10,80,10,20,80
+223,17,88,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,IBCT,III,Logistics Transport,10,10,10,10,10,10,5,5,5,5,5,5,5,5,0,35,65,0,50,50,90,10
+224,17,89,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,IBCT,III,Recon,5,10,5,5,5,0,0,10,10,5,10,10,10,5,10,70,30,10,80,10,20,80
+225,16,80,I15,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 2,IBCT,III,Command and Control,10,0,10,30,10,0,0,0,0,20,20,0,0,0,0,40,60,0,100,0,95,5
+226,19,99,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 2,IBCT,III,Admin-C4I,10,10,10,0,10,0,0,10,20,0,0,10,10,10,0,60,40,0,90,10,80,20
+227,19,100,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 2,IBCT,III,Command and Control,10,10,10,0,10,0,0,10,20,0,0,10,10,10,0,60,40,0,100,0,80,20
+228,19,101,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 2,IBCT,III,Gun Truck,10,10,10,0,10,0,0,10,20,0,0,10,10,10,0,60,40,0,100,0,80,20
+229,19,102,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 2,IBCT,III,Intel Collection,10,10,10,0,10,0,0,10,20,0,0,0,20,10,0,60,40,0,100,0,80,20
+230,19,103,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 2,IBCT,III,Logistics Transport,10,10,10,0,10,0,0,10,20,0,0,10,10,10,0,60,40,0,100,0,80,20
+231,20,105,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,0,10,0,10,20,0,0,40,20,0,0,0,0,0,0,60,40,0,80,20,80,20
+232,20,106,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 2,EAB,III,Gun Truck,0,10,0,10,20,0,0,40,20,0,0,0,0,0,0,60,40,0,80,20,80,20
+233,20,107,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 2,EAB,III,Military Police Operations,0,10,0,10,20,0,0,40,20,0,0,0,0,0,0,60,40,0,80,20,80,20
+234,20,108,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 2,EAB,III,Recon,0,10,0,10,20,0,0,40,20,0,0,0,0,0,0,60,40,0,80,20,80,20
+235,21,110,I18,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 2,IBCT,III,Ambulance,15,20,0,5,15,0,0,0,5,40,0,0,0,0,0,45,55,0,5,95,99,1
+236,21,111,I18,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 2,IBCT,III,Command and Control,15,15,0,5,15,0,0,0,0,30,0,20,0,0,0,50,50,0,0,100,100,0
+237,21,112,I18,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 2,IBCT,III,Logistics Transport,30,20,0,5,15,0,0,0,0,10,0,20,0,0,0,30,70,0,0,100,100,0
+238,18,91,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,IBCT,III,Admin-C4I,10,0,10,0,0,15,0,0,20,0,0,0,15,15,15,65,35,0,90,10,80,20
+239,18,92,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,IBCT,III,Command and Control,15,5,15,15,10,10,0,0,10,0,5,5,0,0,10,30,70,0,90,10,50,50
+240,18,94,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,IBCT,III,Logistics Transport,15,10,10,10,5,10,0,0,10,0,0,0,10,10,10,40,60,0,90,10,85,15
+241,18,95,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,IBCT,III,Maintenance Contact Truck,15,10,10,15,10,10,0,0,10,0,0,0,0,10,10,30,70,0,90,10,50,50
+242,18,96,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,IBCT,III,Prime Mover,15,5,15,10,5,10,0,0,10,0,0,0,10,10,10,40,60,0,90,10,50,50
+243,22,116,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 2,EAB,III,Command and Control,10,10,5,10,10,5,5,5,5,10,10,5,5,5,0,45,55,0,40,60,60,40
+244,22,119,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 2,EAB,III,Maintenance Contact Truck,10,10,10,10,10,5,5,5,5,5,5,5,5,5,5,40,60,0,40,60,60,40
+245,23,123,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Ambulance,15,0,10,0,0,10,0,25,5,5,0,20,0,0,10,65,35,0,100,0,80,20
+246,23,124,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Command and Control,20,0,10,10,0,10,0,20,0,20,0,10,0,0,0,50,50,0,100,0,80,20
+247,23,127,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Logistics Transport,20,1,20,20,1,20,0,0,0,3,0,0,0,5,10,18,82,0,50,50,100,0
+248,23,129,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Retrans Vehicle,10,0,10,10,0,20,0,5,25,0,0,0,10,10,0,50,50,0,100,0,20,80
+249,25,139,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,IBCT,III,Command and Control,25,15,0,0,0,0,0,30,10,0,20,0,0,0,0,60,40,0,100,0,40,60
+250,25,141,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,IBCT,III,Logistics Transport,25,15,0,0,0,0,0,30,10,0,20,0,0,0,0,60,40,0,100,0,40,60
+251,25,142,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,IBCT,III,Prime Mover,15,15,0,0,0,0,0,30,5,5,30,0,0,0,0,70,30,0,100,0,40,60
+252,2,54,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 2,EAB,III,Admin-C4I,10,0,10,15,0,15,0,10,10,0,5,15,0,10,0,50,50,0,80,20,40,60
+253,2,5,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 2,EAB,III,Command and Control,20,15,20,5,0,0,0,15,10,0,0,15,0,0,0,40,60,0,50,50,60,40
+254,2,6,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 2,EAB,III,Logistics Transport,20,15,20,5,10,0,0,5,5,0,0,5,0,15,0,30,70,0,40,60,70,30
+255,2,143,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 2,EAB,III,Prime Mover,20,5,10,15,10,0,0,5,5,10,0,0,0,20,0,40,60,0,20,80,80,20
+256,17,85,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,IBCT,III,Command and Control,15,0,0,0,5,35,0,0,0,0,10,35,0,0,0,45,55,0,100,0,75,25
+257,17,87,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,IBCT,III,Gun Truck,15,0,0,0,5,35,0,0,0,0,10,35,0,0,0,45,55,0,100,0,65,35
+258,17,88,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,IBCT,III,Logistics Transport,15,0,0,15,15,35,0,0,0,0,10,10,0,0,0,20,80,0,100,0,90,10
+259,17,89,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 2,IBCT,III,Recon,15,0,0,0,5,35,0,0,0,0,10,35,0,0,0,45,55,0,100,0,65,35
+260,26,144,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Command and Control,10,0,0,10,10,0,0,0,5,0,30,30,5,0,0,70,30,0,100,0,40,60
+261,26,146,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Gun Truck,10,0,0,10,10,0,0,0,5,0,30,30,5,0,0,70,30,0,100,0,40,60
+262,26,147,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Recon,10,0,0,10,10,0,0,0,5,0,30,30,5,0,0,70,30,0,100,0,30,70
+263,22,114,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 2,EAB,III,Admin-C4I,15,0,15,15,0,15,0,0,0,15,0,5,20,0,0,40,60,5,10,85,80,20
+264,22,115,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 2,EAB,III,Ambulance,15,0,15,15,0,15,0,0,0,15,0,5,20,0,0,40,60,5,10,85,80,20
+265,22,116,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 2,EAB,III,Command and Control,15,0,15,15,0,15,0,0,0,15,0,5,20,0,0,40,60,5,10,85,80,20
+266,22,118,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 2,EAB,III,Logistics Transport,15,0,15,10,0,10,0,0,0,20,15,0,15,0,0,50,50,5,10,85,80,20
+267,22,119,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 2,EAB,III,Maintenance Contact Truck,15,0,15,10,0,10,0,0,0,20,15,0,15,0,0,50,50,5,10,85,80,20
+268,22,120,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 2,EAB,III,Prime Mover,15,0,15,10,0,10,0,0,0,20,15,0,15,0,0,50,50,5,10,85,80,20
+269,26,144,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Command and Control,20,10,0,10,0,0,0,20,20,10,10,0,0,0,0,60,40,0,100,0,50,50
+270,26,146,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Gun Truck,10,10,0,10,10,0,0,20,10,0,10,20,0,0,0,60,40,0,100,0,50,50
+271,26,147,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Recon,10,10,0,10,10,0,0,10,10,10,0,10,10,10,0,60,40,0,100,0,50,50
+272,27,149,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 2,EAB,III,Admin-C4I,10,5,0,10,10,30,0,5,10,0,5,0,5,10,0,35,65,0,0,100,0,100
+273,27,174,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 2,EAB,III,Ambulance,10,10,10,0,10,0,0,10,10,10,10,10,5,5,0,60,40,0,0,100,50,50
+274,27,150,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 2,EAB,III,Command and Control,5,10,10,10,10,20,0,10,10,0,0,0,5,10,0,35,65,0,0,100,20,80
+275,27,152,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 2,EAB,III,Logistics Transport,30,10,15,15,10,0,0,0,10,0,5,0,0,5,0,20,80,0,0,100,20,80
+276,24,131,I35,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Admin-C4I,25,5,0,0,5,0,0,0,20,0,15,10,10,10,0,65,35,0,100,0,40,60
+277,24,132,I35,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Ambulance,25,5,0,0,5,0,0,0,20,0,15,10,10,10,0,65,35,0,100,0,40,60
+278,24,133,I35,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Command and Control,25,5,0,0,5,0,0,0,20,0,15,10,10,10,0,65,35,0,100,0,40,60
+279,24,137,I35,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Retrans Vehicle,25,5,0,0,5,0,0,0,20,0,15,10,10,10,0,65,35,0,100,0,40,60
+280,28,156,I3,IBCT HQ,IBCT HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Command and Control,15,9,7,6,9,0,0,11,9,5,9,9,4,7,0,54,46,0,90,10,30,70
+281,26,144,I4,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Command and Control,15,0,0,10,10,0,0,10,0,35,15,0,5,0,0,65,35,0,100,0,30,70
+282,26,146,I4,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Gun Truck,10,0,0,0,10,0,0,10,0,0,40,20,0,10,0,80,20,0,100,0,30,70
+283,26,147,I4,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Recon,0,5,0,0,10,0,0,5,0,20,40,5,0,10,5,85,15,0,100,0,25,75
+284,1,159,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Admin-C4I,15,20,0,0,0,0,0,25,15,0,0,0,25,0,0,65,35,0,0,100,90,10
+285,1,2,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Command and Control,20,15,20,20,15,0,0,0,0,5,0,5,0,0,0,10,90,0,10,90,90,10
+286,1,160,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Gun Truck,20,15,20,20,15,0,0,0,0,5,0,5,0,0,0,10,90,0,10,90,90,10
+287,1,3,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Logistics Transport,15,10,15,15,10,0,0,5,0,0,0,10,5,15,0,35,65,0,10,90,90,10
+288,1,20,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Maintenance Contact Truck,20,0,20,15,0,0,0,5,0,0,0,0,20,20,0,45,55,0,10,90,90,10
+289,1,8,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Prime Mover,15,10,15,10,10,10,0,10,5,15,0,0,0,0,0,30,70,0,10,90,90,10
+290,26,144,I6,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Command and Control,10,10,10,10,10,10,0,10,0,0,10,10,0,0,10,40,60,0,90,10,50,50
+291,26,146,I6,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Gun Truck,10,10,10,10,10,0,0,10,0,0,10,10,10,10,0,50,50,0,90,10,40,60
+292,26,147,I6,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 2,IBCT,III,Recon,10,10,0,10,10,0,0,10,0,0,20,20,0,10,0,60,40,0,90,10,30,70
+293,51,290,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Admin-C4I,8,11,10,11,5,0,0,11,8,10,12,11,3,0,0,55,45,0,85,15,20,80
+294,51,291,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Ambulance,8,11,10,11,5,0,0,11,8,10,12,11,3,0,0,55,45,0,85,15,20,80
+295,51,292,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Command and Control,8,11,10,11,5,0,0,11,8,10,12,11,3,0,0,55,45,0,85,15,20,80
+296,51,294,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Logistics Transport,8,11,10,11,5,0,0,11,8,10,12,11,3,0,0,55,45,0,85,15,20,80
+297,29,162,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Ambulance,20,0,10,0,0,0,0,30,30,0,0,0,0,10,0,70,30,0,100,0,75,25
+298,29,163,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Command and Control,30,0,30,0,0,0,0,20,20,0,0,0,0,0,0,40,60,0,100,0,75,25
+299,29,164,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Gun Truck,30,0,30,0,0,0,0,20,20,0,0,0,0,0,0,40,60,0,100,0,75,25
+300,29,165,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Logistics Transport,30,0,15,0,0,0,0,30,25,0,0,0,0,0,0,55,45,0,90,10,75,25
+301,30,168,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,IBCT,III,Command and Control,15,5,15,5,5,5,0,5,0,10,10,10,10,0,5,50,50,0,100,0,40,60
+302,30,170,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,IBCT,III,Logistics Transport,15,10,15,5,5,5,0,5,0,5,10,10,10,0,5,45,55,0,95,5,40,60
+303,30,171,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,IBCT,III,Retrans Vehicle,10,5,15,5,5,5,0,5,5,5,10,15,10,0,5,55,45,0,75,25,30,70
+304,14,65,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,IBCT,III,Command and Control,0,5,0,0,0,5,0,30,0,10,10,20,20,0,0,90,10,0,100,0,80,20
+305,14,66,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,IBCT,III,Gun Truck,0,5,0,0,0,5,0,30,0,10,10,20,20,0,0,90,10,0,100,0,80,20
+306,14,67,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,IBCT,III,Logistics Transport,0,20,0,5,10,0,0,20,5,10,0,10,20,0,0,65,35,0,90,10,90,10
+307,14,68,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,IBCT,III,Prime Mover,0,20,0,5,10,0,0,20,5,10,0,10,20,0,0,65,35,0,90,10,90,10
+308,14,69,I10,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,IBCT,III,Recon,0,5,0,0,0,5,0,30,0,10,10,20,20,0,0,90,10,0,100,0,50,50
+309,15,71,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,IBCT,III,Admin-C4I,10,10,10,10,10,10,10,5,10,5,0,5,5,0,0,30,70,0,100,0,75,25
+310,15,72,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,IBCT,III,Command and Control,10,10,10,10,10,10,10,5,10,5,5,5,0,0,0,30,70,0,95,5,50,50
+311,15,74,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,IBCT,III,Logistics Transport,10,10,10,10,10,10,10,5,10,5,5,5,0,0,0,30,70,0,95,5,50,50
+312,15,75,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,IBCT,III,Maintenance Contact Truck,10,10,10,10,10,10,10,5,10,5,5,5,0,0,0,30,70,0,95,5,50,50
+313,15,76,I11,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,IBCT,III,Prime Mover,10,10,10,10,10,10,10,5,10,5,5,5,0,0,0,30,70,0,90,10,50,50
+314,16,80,I12,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 4,IBCT,III,Command and Control,2,2,0,2,2,15,2,5,0,10,15,25,0,10,10,75,25,0,0,100,90,10
+315,17,85,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,IBCT,III,Command and Control,10,0,10,10,10,10,0,10,0,0,10,10,10,0,10,50,50,0,90,10,70,30
+316,17,87,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,IBCT,III,Gun Truck,10,5,0,0,10,10,0,10,10,0,10,10,10,5,10,65,35,10,80,10,70,30
+317,17,88,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,IBCT,III,Logistics Transport,10,10,5,10,10,5,0,10,5,10,5,0,10,5,5,50,50,0,70,30,70,30
+318,17,89,I13,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,IBCT,III,Recon,10,5,0,0,10,10,0,10,10,0,10,10,10,5,10,65,35,10,80,10,70,30
+319,16,80,I15,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 4,IBCT,III,Command and Control,10,10,10,10,10,10,0,0,10,20,0,0,0,10,0,40,60,0,100,0,95,5
+320,19,99,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 4,IBCT,III,Admin-C4I,10,0,10,10,10,20,0,0,15,0,0,0,10,0,15,40,60,0,100,0,90,10
+321,19,100,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 4,IBCT,III,Command and Control,10,0,10,0,10,20,0,0,0,15,0,10,10,0,15,50,50,0,100,0,90,10
+322,19,101,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 4,IBCT,III,Gun Truck,10,0,10,10,10,15,0,0,10,15,0,5,5,0,10,45,55,0,100,0,90,10
+323,19,102,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 4,IBCT,III,Intel Collection,10,5,10,10,5,15,0,5,10,15,0,0,5,0,10,45,55,0,100,0,90,10
+324,19,103,I16,BCT MI CO,BCT MI CO,BCT Combat Support,Vignette 4,IBCT,III,Logistics Transport,10,10,10,10,10,15,0,5,5,5,0,5,5,5,5,35,65,0,100,0,90,10
+325,20,105,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 4,EAB,III,Command and Control,10,10,10,20,10,20,0,0,0,0,0,0,0,10,10,20,80,0,10,90,95,5
+326,20,106,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 4,EAB,III,Gun Truck,10,10,10,20,10,20,0,0,0,0,0,0,0,10,10,20,80,0,10,90,95,5
+327,20,107,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 4,EAB,III,Military Police Operations,10,10,10,20,10,20,0,0,0,0,0,0,0,10,10,20,80,0,10,90,95,5
+328,20,108,I17,Military Police CO,Military Police CO,EAB Combat Support,Vignette 4,EAB,III,Recon,10,10,10,20,10,20,0,0,0,0,0,0,0,10,10,20,80,0,10,90,95,5
+329,22,114,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Admin-C4I,10,5,5,5,10,10,5,10,7,3,3,5,5,7,10,50,50,0,10,90,90,10
+330,22,115,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Ambulance,10,5,5,5,5,10,5,10,5,5,5,5,5,10,10,55,45,0,10,90,90,10
+331,22,116,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Command and Control,10,5,5,5,5,10,5,10,5,5,5,5,5,10,10,55,45,0,10,90,90,10
+332,22,118,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,10,5,5,10,10,10,3,7,5,5,5,5,5,5,10,47,53,0,10,90,90,10
+333,22,119,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Maintenance Contact Truck,10,5,5,5,5,10,5,10,10,3,5,5,5,7,10,55,45,0,10,90,80,20
+334,22,120,I1,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Prime Mover,10,5,5,10,10,10,3,7,5,5,5,5,5,5,10,47,53,0,10,90,90,10
+335,23,123,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Ambulance,20,0,20,15,0,0,0,20,10,5,0,10,0,0,0,45,55,0,70,30,80,20
+336,23,124,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Command and Control,10,0,10,0,0,5,20,20,15,0,0,20,0,0,0,55,45,0,100,0,80,20
+337,23,127,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Logistics Transport,20,0,20,20,0,15,0,10,5,5,0,0,0,5,0,25,75,0,60,40,70,30
+338,23,129,I20,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Retrans Vehicle,10,0,10,20,0,10,0,20,10,0,20,0,0,0,0,50,50,0,100,0,20,80
+339,25,139,I23,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,IBCT,III,Command and Control,15,10,0,0,0,5,0,15,20,0,0,10,0,0,25,70,30,0,100,0,65,35
+340,25,141,I23,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,IBCT,III,Logistics Transport,20,20,10,15,0,5,0,5,10,0,0,0,0,0,15,30,70,0,100,0,80,20
+341,25,142,I23,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,IBCT,III,Prime Mover,15,0,0,10,0,10,0,20,15,0,0,0,0,0,30,65,35,0,100,0,80,20
+342,25,139,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,IBCT,III,Command and Control,0,20,0,0,0,30,0,25,10,0,15,0,0,0,0,50,50,0,100,0,50,50
+343,25,141,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,IBCT,III,Logistics Transport,0,10,0,5,0,30,0,25,10,0,20,0,0,0,0,55,45,0,100,0,50,50
+344,25,142,I24,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,IBCT,III,Prime Mover,0,10,0,0,0,30,0,25,10,0,20,0,0,5,0,60,40,0,100,0,50,50
+345,2,5,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Command and Control,10,10,15,15,5,10,0,0,0,20,0,15,0,0,0,35,65,0,100,0,90,10
+346,2,6,I25,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,10,10,15,15,5,10,0,0,0,20,0,15,0,0,0,35,65,0,100,0,90,10
+347,17,85,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,IBCT,III,Command and Control,15,0,0,0,5,10,0,0,40,0,0,0,30,0,0,70,30,0,100,0,70,30
+348,17,87,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,IBCT,III,Gun Truck,15,0,0,0,5,10,0,0,40,0,0,0,30,0,0,70,30,0,100,0,70,30
+349,17,88,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,IBCT,III,Logistics Transport,15,0,0,0,5,10,0,0,40,0,0,0,30,0,0,70,30,0,100,0,80,20
+350,17,89,I28,Cavalry TRP,Cavalry TRP,Maneuver,Vignette 4,IBCT,III,Recon,15,0,0,0,5,10,0,0,40,0,0,0,30,0,0,70,30,0,100,0,70,30
+351,26,144,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Command and Control,10,0,0,0,25,10,0,0,10,0,25,0,10,0,10,55,45,0,100,0,50,50
+352,26,146,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Gun Truck,10,0,0,0,25,10,0,0,10,0,25,0,10,0,10,55,45,0,100,0,50,50
+353,26,147,I29,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Recon,10,0,0,0,25,10,0,0,10,0,25,0,10,0,10,55,45,0,100,0,50,50
+354,22,114,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Admin-C4I,15,5,15,0,5,5,0,10,20,5,0,0,10,0,10,55,45,5,10,85,80,20
+355,22,115,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Ambulance,15,5,15,0,5,5,0,10,20,5,0,0,10,0,10,55,45,5,10,85,80,20
+356,22,116,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Command and Control,15,5,15,0,5,5,0,10,20,5,0,0,10,0,10,55,45,5,10,85,80,20
+357,22,118,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,20,5,20,5,5,5,0,10,10,0,0,0,10,0,10,40,60,5,10,85,80,20
+358,22,119,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Maintenance Contact Truck,20,5,20,5,5,5,0,10,10,0,0,0,10,0,10,40,60,5,10,85,80,20
+359,22,120,I2,Aviation Support BN,Aviation Support BN,EAB Sustainment,Vignette 4,EAB,III,Prime Mover,20,5,20,5,5,5,0,10,10,0,0,0,10,0,10,40,60,5,10,85,80,20
+360,26,144,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Command and Control,0,10,0,10,0,0,0,20,0,20,10,10,10,10,0,80,20,0,100,0,90,10
+361,26,146,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Gun Truck,0,10,0,10,0,0,0,20,0,20,10,10,10,10,0,80,20,0,100,0,90,10
+362,26,147,I30,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Recon,0,10,0,10,0,0,0,20,0,20,10,10,10,10,0,80,20,0,100,0,90,10
+363,27,149,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 4,EAB,III,Admin-C4I,10,10,5,15,10,20,0,5,0,0,5,0,10,10,0,30,70,0,0,100,50,50
+364,27,174,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 4,EAB,III,Ambulance,20,10,15,10,10,0,0,5,0,10,5,5,0,10,0,35,65,0,0,100,50,50
+365,27,150,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 4,EAB,III,Command and Control,20,10,15,10,10,0,0,5,0,10,5,5,0,10,0,35,65,0,0,100,50,50
+366,27,152,I31,Sustainment BDE HQ,Sustainment BDE HQ,EAB BN or BDE HQs,Vignette 4,EAB,III,Logistics Transport,10,10,5,15,10,20,0,5,0,0,5,0,10,10,0,30,70,0,0,100,50,50
+367,2,54,I33,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Admin-C4I,0,20,0,20,10,0,0,0,20,0,0,0,10,20,0,50,50,0,0,100,100,0
+368,2,5,I33,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Command and Control,0,20,0,20,10,0,0,0,20,0,0,0,10,20,0,50,50,0,0,100,100,0
+369,2,6,I33,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,0,20,0,20,10,0,0,0,20,0,0,0,10,20,0,50,50,0,0,100,100,0
+370,2,143,I33,EAB Quartermaster CO,EAB Quartermaster CO,EAB Sustainment,Vignette 4,EAB,III,Prime Mover,0,20,0,20,10,0,0,0,20,0,0,0,10,20,0,50,50,0,0,100,100,0
+371,24,131,I35,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Admin-C4I,0,0,0,0,10,15,0,15,0,10,10,15,10,10,5,75,25,0,100,0,80,20
+372,24,132,I35,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Ambulance,0,0,0,0,10,10,0,15,0,15,10,15,10,10,5,80,20,0,100,0,80,20
+373,24,133,I35,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Command and Control,0,0,0,0,10,15,0,15,0,10,10,15,10,10,5,75,25,0,100,0,80,20
+374,24,137,I35,BCT FA BN HQ,BCT FA BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Retrans Vehicle,0,0,0,0,5,5,0,15,0,10,15,15,15,10,10,90,10,0,100,0,70,30
+375,28,156,I3,IBCT HQ,IBCT HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Command and Control,10,25,0,5,5,0,8,10,0,6,4,15,0,0,12,47,53,0,100,0,75,25
+376,26,144,I4,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Command and Control,5,0,0,0,20,0,0,20,15,0,30,0,5,0,5,75,25,0,100,0,80,20
+377,26,146,I4,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Gun Truck,10,0,0,10,10,0,0,25,10,0,25,0,0,0,10,70,30,0,100,0,70,30
+378,26,147,I4,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Recon,10,0,0,10,10,0,0,25,10,0,25,0,0,0,10,70,30,0,100,0,70,30
+379,1,159,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Admin-C4I,0,20,0,0,0,20,0,10,15,15,10,0,0,10,0,60,40,0,0,100,100,0
+380,1,2,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Command and Control,0,15,10,10,10,15,0,10,0,20,0,10,0,0,0,40,60,0,10,90,90,10
+381,1,160,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Gun Truck,0,15,10,10,10,15,0,10,0,20,0,10,0,0,0,40,60,0,10,90,90,10
+382,1,3,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,0,15,15,10,10,20,0,15,0,0,0,0,0,15,0,30,70,0,10,90,90,10
+383,1,20,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Maintenance Contact Truck,10,15,10,10,10,10,0,10,0,0,0,0,0,20,5,35,65,0,10,90,90,10
+384,1,8,I5,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Prime Mover,0,15,15,10,10,20,0,15,0,0,0,0,0,15,0,30,70,0,10,90,90,10
+385,26,144,I6,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Command and Control,10,10,10,10,10,0,0,10,0,10,10,10,0,10,0,50,50,0,100,0,90,10
+386,26,146,I6,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Gun Truck,10,10,10,10,10,0,0,10,0,10,10,10,0,10,0,50,50,0,100,0,90,10
+387,26,147,I6,Infantry (LI) CO,Infantry (LI) CO,Maneuver,Vignette 4,IBCT,III,Recon,10,10,10,10,10,0,0,10,0,10,10,10,0,10,0,50,50,0,100,0,80,20
+388,51,290,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Admin-C4I,0,9,0,8,0,5,0,13,6,15,14,15,7,8,0,78,22,0,100,0,90,10
+389,51,291,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Ambulance,0,9,0,8,0,5,0,13,6,15,14,15,7,8,0,78,22,0,100,0,90,10
+390,51,292,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Command and Control,0,9,0,8,0,5,0,13,6,15,14,15,7,8,0,78,22,0,100,0,90,10
+391,51,294,I7,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Logistics Transport,0,9,0,8,0,5,0,13,6,15,14,15,7,8,0,78,22,0,100,0,90,10
+392,29,162,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Ambulance,20,0,0,20,20,20,0,20,0,0,0,0,0,0,0,20,80,0,100,0,80,20
+393,29,163,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Command and Control,20,0,0,20,10,30,0,20,0,0,0,0,0,0,0,20,80,0,100,0,70,30
+394,29,164,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Gun Truck,20,0,0,20,10,30,0,20,0,0,0,0,0,0,0,20,80,0,100,0,70,30
+395,29,165,I8,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Logistics Transport,20,0,0,20,20,20,0,20,0,0,0,0,0,0,0,20,80,0,100,0,70,30
+396,30,168,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,IBCT,III,Command and Control,10,10,10,5,10,0,0,5,10,5,5,5,10,5,10,55,45,0,100,0,95,5
+397,30,170,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,IBCT,III,Logistics Transport,10,10,10,5,10,0,0,5,5,10,5,5,10,5,10,55,45,0,95,5,95,5
+398,30,171,I9,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,IBCT,III,Retrans Vehicle,15,5,10,5,5,0,0,5,10,5,5,10,10,5,10,60,40,0,95,5,95,5
+399,18,91,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,IBCT,III,Admin-C4I,5,5,5,5,10,10,0,0,10,10,5,15,0,10,10,60,40,0,5,95,95,5
+400,18,92,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,IBCT,III,Command and Control,5,5,5,10,5,10,0,0,10,10,5,10,5,10,10,60,40,0,5,95,95,5
+401,18,94,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,IBCT,III,Logistics Transport,5,5,5,10,10,5,0,0,10,10,0,10,10,10,10,60,40,0,5,95,95,5
+402,18,95,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,IBCT,III,Maintenance Contact Truck,10,5,5,10,5,5,0,0,15,5,0,10,5,10,15,60,40,0,5,95,95,5
+403,18,96,I19,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,IBCT,III,Prime Mover,10,5,5,5,5,10,0,0,10,10,5,10,5,10,10,60,40,0,5,95,95,5
+404,31,178,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Admin-C4I,6,0,0,0,3,5,0,20,40,5,6,0,6,5,4,86,14,0,100,0,90,10
+405,31,179,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,6,0,0,0,3,5,0,20,40,5,6,0,6,5,4,86,14,0,100,0,90,10
+406,31,180,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,6,0,0,0,3,5,0,20,40,5,6,0,6,5,4,86,14,0,100,0,90,10
+407,32,182,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Admin-C4I,20,30,0,0,0,0,0,10,10,0,10,0,10,0,10,50,50,0,60,40,75,25
+408,32,183,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,9,9,2,2,24,2,2,9,9,2,9,9,2,1,9,50,50,0,60,40,75,25
+409,32,184,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,9,25,6,8,4,9,0,4,20,0,1,0,10,0,4,39,61,0,60,40,75,25
+410,32,183,S13,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,10,0,0,0,0,20,5,25,12,5,13,5,5,0,0,65,35,0,100,0,20,80
+411,32,184,S13,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,15,0,5,0,0,5,5,15,12,18,10,5,5,5,0,70,30,0,100,0,70,30
+412,33,186,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,SBCT,III,Admin-C4I,5,5,5,5,10,0,0,20,20,0,10,0,0,20,0,70,30,0,100,0,50,50
+413,33,187,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,SBCT,III,Command and Control,0,5,0,5,5,0,0,10,20,10,20,10,5,5,5,85,15,0,100,0,60,40
+414,33,189,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,SBCT,III,Logistics Transport,10,10,20,20,10,5,5,5,10,0,0,0,0,5,0,20,80,0,100,0,50,50
+415,33,190,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,SBCT,III,Prime Mover,5,10,0,5,10,0,0,20,20,0,20,10,0,0,0,70,30,0,100,0,60,40
+416,33,186,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,SBCT,III,Admin-C4I,10,10,0,0,0,10,0,30,30,0,0,10,0,0,0,70,30,0,100,0,20,80
+417,33,187,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,SBCT,III,Command and Control,15,20,0,0,0,0,0,30,15,0,0,5,10,5,0,65,35,0,100,0,20,80
+418,33,189,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,SBCT,III,Logistics Transport,15,20,0,0,0,0,0,30,15,0,0,0,20,0,0,65,35,0,100,0,20,80
+419,33,190,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 1,SBCT,III,Prime Mover,0,10,0,0,0,0,0,25,10,0,0,0,40,15,0,90,10,0,100,0,20,80
+420,34,193,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Logistics Transport,0,30,0,0,10,0,0,0,30,0,10,0,10,0,10,60,40,0,50,50,50,50
+421,34,194,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Maintenance Contact Truck,0,30,0,0,10,0,0,0,30,0,10,0,10,0,10,60,40,0,50,50,50,50
+422,34,195,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Prime Mover,0,20,0,0,20,0,0,0,40,0,10,0,0,0,10,60,40,0,50,50,50,50
+423,35,198,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Admin-C4I,10,20,0,5,0,5,10,15,20,0,0,5,10,0,0,50,50,0,100,0,85,15
+424,35,199,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,10,20,0,5,0,5,10,15,20,0,0,5,10,0,0,50,50,0,100,0,85,15
+425,35,201,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,10,20,0,0,0,0,0,15,20,0,0,10,15,5,5,70,30,0,80,20,85,15
+426,34,193,S18,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Logistics Transport,8,5,6,3,3,4,8,10,8,1,11,12,5,15,1,63,37,0,80,20,100,0
+427,35,198,S19,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Admin-C4I,8,2,12,8,8,12,10,3,12,5,1,1,6,6,6,40,60,0,0,100,80,20
+428,35,199,S19,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,8,2,12,8,8,12,10,3,12,5,1,1,6,6,6,40,60,0,0,100,80,20
+429,35,201,S19,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,6,4,5,6,5,5,4,7,7,7,10,10,7,7,10,65,35,0,10,90,70,30
+430,36,203,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Admin-C4I,10,0,5,10,15,5,10,15,2,8,6,2,6,2,4,45,55,0,0,100,90,10
+431,36,204,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,10,0,5,10,15,5,5,10,5,20,5,2,5,2,1,50,50,0,80,20,90,10
+432,36,206,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,10,0,5,10,15,5,10,15,2,8,6,2,6,2,4,45,55,0,80,20,90,10
+433,37,209,S20,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 1,SBCT,III,Logistics Transport,10,0,10,10,10,0,0,20,15,0,0,0,10,5,10,60,40,0,15,85,90,10
+434,38,210,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,SBCT,III,Admin-C4I,8,15,6,2,15,2,2,10,6,5,1,12,10,5,1,50,50,0,80,20,100,0
+435,38,211,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,SBCT,III,Command and Control,10,10,10,10,10,10,10,3,0,10,2,10,5,0,0,30,70,0,80,20,100,0
+436,38,212,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,SBCT,III,Logistics Transport,8,20,8,0,12,5,5,15,5,3,0,10,3,0,6,42,58,0,80,20,100,0
+437,38,213,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,SBCT,III,Maintenance Contact Truck,11,10,10,3,10,10,5,20,7,0,0,8,0,0,6,41,59,0,80,20,100,0
+438,38,214,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 1,SBCT,III,Prime Mover,6,20,5,0,20,5,0,8,0,15,9,10,2,0,0,44,56,0,80,20,100,0
+439,39,217,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 1,SBCT,III,Ambulance,8,15,8,5,0,0,3,10,4,8,7,10,10,5,7,61,39,0,80,20,30,70
+440,39,218,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 1,SBCT,III,Command and Control,8,15,8,5,0,0,3,10,4,8,7,10,10,5,7,61,39,0,80,20,30,70
+441,39,219,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 1,SBCT,III,Logistics Transport,8,10,8,9,5,0,1,12,4,6,7,6,12,5,7,59,41,0,40,60,30,70
+442,36,203,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Admin-C4I,15,10,12,10,10,0,0,5,5,3,2,9,9,5,5,43,57,0,15,85,0,0
+443,36,204,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,15,10,12,10,10,0,0,5,5,3,2,9,9,5,5,43,57,0,15,85,0,0
+444,36,206,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,15,10,12,10,10,0,0,5,5,3,2,9,9,5,5,43,57,0,15,85,0,0
+445,40,221,S24,Infantry (Stryker) CO,Infantry (Stryker) CO,Maneuver,Vignette 1,SBCT,III,Command and Control,10,15,0,10,10,0,0,15,10,5,5,5,5,5,5,55,45,0,90,10,75,25
+446,31,178,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Admin-C4I,6,14,6,7,14,1,0,2,13,5,11,10,5,6,0,52,48,0,100,0,75,25
+447,31,179,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,6,10,6,14,14,1,0,2,10,5,9,12,5,6,0,49,51,0,100,0,25,75
+448,31,180,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,11,14,10,13,14,5,0,5,6,6,3,3,3,7,0,33,67,0,100,0,95,5
+449,34,223,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Admin-C4I,5,10,5,0,5,10,5,15,10,10,5,5,10,5,0,60,40,0,100,0,70,30
+450,34,224,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Command and Control,5,10,5,0,5,10,5,15,10,10,5,5,10,5,0,60,40,0,100,0,70,30
+451,34,193,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Logistics Transport,5,10,10,0,5,5,5,15,10,10,5,5,10,5,0,60,40,0,80,20,70,30
+452,34,194,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Maintenance Contact Truck,5,10,5,0,5,5,0,10,10,5,15,5,10,10,5,70,30,0,90,10,60,40
+453,34,195,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Prime Mover,5,10,5,0,5,5,0,10,10,10,10,10,5,10,5,70,30,0,90,10,70,30
+454,32,183,S2,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,30,15,0,5,5,0,0,10,10,15,0,10,0,0,0,45,55,0,100,0,90,10
+455,32,184,S2,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,30,15,0,5,5,0,0,10,10,15,0,10,0,0,0,45,55,0,100,0,90,10
+456,41,226,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,SBCT,III,Command and Control,50,0,0,0,0,0,0,50,0,0,0,0,0,0,0,50,50,0,100,0,80,20
+457,41,227,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,SBCT,III,Gun Truck,50,0,0,0,0,0,0,50,0,0,0,0,0,0,0,50,50,0,100,0,80,20
+458,41,228,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,SBCT,III,Logistics Transport,50,0,0,0,0,0,0,30,0,0,20,0,0,0,0,50,50,0,80,20,95,5
+459,41,229,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 1,SBCT,III,Prime Mover,10,10,0,0,10,0,0,30,0,0,0,0,10,20,10,70,30,0,100,0,70,30
+460,42,231,S5,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,5,10,5,10,10,2,2,10,10,10,5,10,5,5,1,56,44,0,80,20,90,10
+461,42,232,S5,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,5,10,5,8,10,3,1,10,10,10,5,10,6,6,1,58,42,0,80,20,95,5
+462,42,233,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Admin-C4I,5,10,5,5,0,30,0,15,15,0,0,10,5,0,0,45,55,0,90,10,80,20
+463,42,231,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Command and Control,5,10,5,5,0,30,15,15,0,0,0,10,5,0,0,30,70,0,90,10,80,20
+464,42,232,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 1,SBCT,III,Logistics Transport,0,15,0,0,10,0,0,20,15,0,0,10,15,0,15,75,25,0,90,10,80,20
+465,43,236,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,SBCT,III,Admin-C4I,0,15,15,0,0,40,0,20,0,10,0,0,0,0,0,30,70,0,20,80,90,10
+466,43,237,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,SBCT,III,Command and Control,0,30,0,20,0,0,0,0,50,0,0,0,0,0,0,50,50,0,90,10,90,10
+467,43,239,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 1,SBCT,III,Logistics Transport,0,40,20,0,0,0,0,0,0,40,0,0,0,0,0,40,60,0,95,5,100,0
+468,34,223,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Admin-C4I,11,18,8,2,7,0,0,0,0,25,0,13,16,0,0,54,46,0,100,0,90,10
+469,34,224,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Command and Control,8,15,5,12,12,0,0,8,3,18,0,12,5,0,2,48,52,0,100,0,90,10
+470,34,193,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Logistics Transport,12,14,5,5,5,3,3,2,2,25,2,10,2,8,2,53,47,0,100,0,80,20
+471,34,194,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Maintenance Contact Truck,5,15,5,5,10,0,0,0,15,20,2,10,10,0,3,60,40,0,100,0,85,15
+472,34,195,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 1,SBCT,III,Prime Mover,12,13,8,8,8,4,3,0,0,22,0,22,0,0,0,44,56,0,100,0,90,10
+473,31,178,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Admin-C4I,15,0,0,15,10,0,0,10,30,0,20,0,0,0,0,60,40,0,100,0,20,80
+474,31,179,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,15,0,0,15,10,0,0,10,30,0,20,0,0,0,0,60,40,0,100,0,20,80
+475,31,180,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,15,0,0,15,10,0,0,10,30,0,20,0,0,0,0,60,40,0,100,0,20,80
+476,32,182,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Admin-C4I,3,26,0,7,10,10,0,16,10,0,11,0,7,0,0,44,56,0,90,10,10,90
+477,32,183,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,8,20,5,8,19,6,0,8,8,2,8,0,8,0,0,34,66,0,90,10,10,90
+478,32,184,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,10,10,10,10,10,10,0,10,10,0,10,0,10,0,0,40,60,0,90,10,10,90
+479,32,183,S13,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,35,20,0,15,0,0,0,10,0,0,10,0,10,0,0,30,70,0,100,0,20,80
+480,32,184,S13,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,35,20,0,15,0,0,0,10,0,0,10,0,10,0,0,30,70,0,100,0,20,80
+481,33,186,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,SBCT,III,Admin-C4I,10,10,5,10,10,0,0,30,20,0,5,0,0,0,0,55,45,0,100,0,20,80
+482,33,187,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,SBCT,III,Command and Control,10,10,5,10,10,0,0,30,20,0,5,0,0,0,0,55,45,0,100,0,20,80
+483,33,189,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,SBCT,III,Logistics Transport,5,10,5,10,10,0,0,30,20,0,10,0,0,0,0,60,40,0,100,0,20,80
+484,33,190,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,SBCT,III,Prime Mover,5,10,5,5,10,5,0,30,20,0,10,0,0,0,0,60,40,0,100,0,20,80
+485,33,186,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,SBCT,III,Admin-C4I,10,10,0,0,10,0,0,30,20,0,20,0,0,0,0,70,30,0,100,0,20,80
+486,33,187,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,SBCT,III,Command and Control,10,10,0,0,10,0,0,30,20,0,20,0,0,0,0,70,30,0,100,0,20,80
+487,33,189,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,SBCT,III,Logistics Transport,10,10,0,0,0,0,0,30,20,0,20,10,0,0,0,80,20,0,100,0,20,80
+488,33,190,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 2,SBCT,III,Prime Mover,10,10,0,0,10,0,0,25,25,0,20,0,0,0,0,70,30,0,100,0,20,80
+489,34,223,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Admin-C4I,10,10,0,0,15,0,0,0,20,10,15,0,10,10,0,65,35,0,70,30,70,30
+490,34,224,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Command and Control,10,10,0,0,15,0,0,0,20,15,15,5,10,0,0,65,35,0,70,30,70,30
+491,34,193,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Logistics Transport,15,10,0,0,15,0,0,0,20,0,20,5,5,10,0,60,40,0,70,30,70,30
+492,34,194,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Maintenance Contact Truck,15,10,0,0,15,0,0,0,20,0,20,5,5,10,0,60,40,0,70,30,70,30
+493,34,195,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Prime Mover,15,10,0,0,15,0,0,0,20,0,20,5,5,10,0,60,40,0,70,30,70,30
+494,35,198,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Admin-C4I,25,15,10,10,0,5,0,5,15,0,10,0,5,0,0,35,65,0,100,0,15,85
+495,35,199,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,25,15,10,10,0,5,0,5,15,0,10,0,5,0,0,35,65,0,100,0,15,85
+496,35,201,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,25,15,10,10,0,5,0,5,15,0,10,0,5,0,0,35,65,0,90,10,15,85
+497,34,193,S18,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Logistics Transport,10,8,5,5,8,5,5,5,20,5,1,4,8,10,1,54,46,0,80,20,70,30
+498,34,194,S18,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Maintenance Contact Truck,10,8,5,5,8,5,5,5,20,5,1,4,8,10,1,54,46,0,90,10,70,30
+499,35,198,S19,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Admin-C4I,10,10,10,10,10,10,10,3,8,3,3,3,3,4,3,30,70,0,0,100,100,0
+500,35,201,S19,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,10,10,10,10,10,10,10,6,6,3,2,4,3,6,0,30,70,0,20,80,85,15
+501,36,203,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Admin-C4I,15,0,15,10,15,0,10,10,5,5,10,0,3,2,0,35,65,0,80,20,80,20
+502,36,204,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,15,0,15,10,15,0,10,10,5,5,10,0,3,2,0,35,65,0,100,0,30,70
+503,36,206,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,15,0,15,10,15,0,10,10,5,5,10,0,3,2,0,35,65,0,80,20,80,20
+504,37,209,S20,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 2,SBCT,III,Logistics Transport,15,0,15,15,15,5,0,15,10,0,10,0,0,0,0,35,65,0,25,75,80,20
+505,38,213,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 2,SBCT,III,Maintenance Contact Truck,10,10,10,10,10,10,10,8,15,0,0,7,0,0,0,30,70,0,80,20,90,10
+506,39,217,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 2,SBCT,III,Ambulance,8,15,8,8,8,1,0,9,5,5,8,12,5,5,3,52,48,0,80,20,15,85
+507,39,218,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 2,SBCT,III,Command and Control,8,15,8,8,8,1,0,9,5,5,8,12,5,5,3,52,48,0,5,95,15,85
+508,39,219,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 2,SBCT,III,Logistics Transport,8,8,8,8,8,1,0,11,7,5,8,8,11,6,3,59,41,0,5,95,20,80
+509,36,203,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Admin-C4I,10,10,10,5,5,10,0,5,10,10,10,5,5,5,0,50,50,0,90,10,40,60
+510,36,204,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,10,10,10,5,5,10,0,5,10,10,10,5,5,5,0,50,50,0,90,10,40,60
+511,36,206,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,10,10,10,5,5,10,0,5,10,10,10,5,5,5,0,50,50,0,90,10,40,60
+512,40,221,S24,Infantry (Stryker) CO,Infantry (Stryker) CO,Maneuver,Vignette 2,SBCT,III,Command and Control,10,10,0,10,10,5,0,15,10,5,10,5,5,5,0,55,45,0,90,10,15,85
+513,31,178,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Admin-C4I,4,4,4,4,4,0,0,20,22,5,11,6,11,5,0,80,20,0,100,0,10,90
+514,31,179,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,4,4,4,4,4,0,0,20,22,5,11,6,11,5,0,80,20,0,100,0,5,95
+515,31,180,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,4,4,4,4,4,0,0,20,22,5,11,6,11,5,0,80,20,0,100,0,15,85
+516,34,223,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Admin-C4I,5,10,5,5,5,5,5,10,10,5,15,10,5,5,0,60,40,0,90,10,20,80
+517,34,224,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Command and Control,5,10,5,5,5,5,5,10,10,5,15,10,5,5,0,60,40,0,90,10,20,80
+518,34,193,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Logistics Transport,5,10,5,0,5,5,0,10,15,10,15,10,5,5,0,70,30,0,90,10,20,80
+519,34,194,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Maintenance Contact Truck,5,10,5,0,5,5,0,10,15,10,15,10,5,5,0,70,30,0,90,10,20,80
+520,34,195,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Prime Mover,5,10,5,0,5,5,0,5,15,10,15,10,5,10,0,70,30,0,90,10,20,80
+521,32,183,S2,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,20,10,8,10,6,6,0,8,6,5,15,3,2,1,0,40,60,0,100,0,30,70
+522,32,184,S2,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,20,10,8,10,6,6,0,8,6,5,15,3,2,1,0,40,60,0,100,0,30,70
+523,41,226,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,SBCT,III,Command and Control,25,0,25,0,0,20,0,10,10,0,10,0,0,0,0,30,70,0,80,20,80,20
+524,41,227,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,SBCT,III,Gun Truck,25,0,25,0,0,20,0,10,10,0,10,0,0,0,0,30,70,0,80,20,80,20
+525,41,228,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,SBCT,III,Logistics Transport,20,0,20,0,0,20,0,15,15,0,10,0,0,0,0,40,60,0,20,80,80,20
+526,41,229,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 2,SBCT,III,Prime Mover,25,0,25,0,0,20,0,15,15,0,0,0,0,0,0,30,70,0,20,80,80,20
+527,42,231,S5,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,8,8,8,8,8,8,4,8,8,8,8,5,3,7,1,48,52,0,80,20,20,80
+528,42,232,S5,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,8,8,8,8,8,8,5,8,7,7,7,5,4,8,1,47,53,0,60,40,20,80
+529,42,233,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Admin-C4I,15,15,0,10,0,0,0,15,20,0,10,0,15,0,0,60,40,0,80,20,80,20
+530,42,231,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Command and Control,15,15,0,10,0,0,0,15,20,0,10,0,15,0,0,60,40,0,80,20,80,20
+531,42,232,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 2,SBCT,III,Logistics Transport,15,10,15,15,10,0,0,15,15,0,0,0,5,0,0,35,65,0,80,20,80,20
+532,43,236,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,SBCT,III,Admin-C4I,0,20,0,0,0,0,0,0,25,0,20,35,0,0,0,80,20,0,10,90,10,90
+533,43,237,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,SBCT,III,Command and Control,20,60,0,0,0,0,0,0,20,0,0,0,0,0,0,20,80,0,95,5,10,90
+534,43,239,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,SBCT,III,Logistics Transport,20,20,0,0,0,0,0,0,10,0,50,0,0,0,0,60,40,0,90,10,10,90
+535,43,240,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 2,SBCT,III,Retrans Vehicle,0,25,0,5,0,0,0,0,20,0,50,0,0,0,0,70,30,0,90,10,5,95
+536,34,223,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Admin-C4I,18,12,0,8,8,8,0,1,18,1,12,1,5,3,5,46,54,0,100,0,0,0
+537,34,224,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Command and Control,18,12,0,8,8,8,0,1,18,1,12,1,5,3,5,46,54,0,100,0,0,0
+538,34,193,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Logistics Transport,18,8,5,8,8,5,0,0,18,0,18,0,8,4,0,48,52,0,100,0,0,0
+539,34,194,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Maintenance Contact Truck,20,16,0,8,8,10,0,0,20,0,18,0,0,0,0,38,62,0,100,0,0,0
+540,34,195,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 2,SBCT,III,Prime Mover,18,12,0,8,8,8,0,1,18,1,12,1,5,3,5,46,54,0,100,0,0,0
+541,31,178,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Admin-C4I,5,10,0,10,10,20,0,15,0,10,0,10,0,0,10,45,55,0,100,0,100,0
+542,31,179,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,10,10,0,10,10,10,0,10,10,10,0,20,0,0,0,50,50,0,100,0,100,0
+543,31,180,S10,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,10,0,0,10,20,10,0,10,0,20,0,20,0,0,0,50,50,0,100,0,100,0
+544,32,182,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Admin-C4I,0,14,0,5,14,5,0,19,7,0,18,4,7,0,7,62,38,0,90,10,40,60
+545,32,183,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,0,14,0,5,14,5,0,19,7,0,18,4,7,0,7,62,38,0,90,10,40,60
+546,32,184,S12,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,0,14,0,4,14,7,0,19,5,7,18,0,7,0,5,61,39,0,90,10,40,60
+547,32,183,S13,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,0,0,0,0,5,10,15,0,0,50,0,0,20,0,0,70,30,0,100,0,90,10
+548,32,184,S13,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,0,0,0,0,5,10,15,0,0,50,0,0,20,0,0,70,30,0,100,0,90,10
+549,33,186,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,SBCT,III,Admin-C4I,0,10,0,0,10,10,0,20,10,10,0,10,0,20,0,70,30,0,100,0,20,80
+550,33,187,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,SBCT,III,Command and Control,0,10,0,10,10,10,0,20,10,10,0,10,0,10,0,60,40,0,100,0,20,80
+551,33,189,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,SBCT,III,Logistics Transport,10,10,0,10,10,0,0,20,10,10,0,10,0,10,0,60,40,0,100,0,20,80
+552,33,190,S14,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,SBCT,III,Prime Mover,10,10,0,10,10,0,0,10,10,10,10,10,0,10,0,60,40,0,100,0,20,80
+553,33,186,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,SBCT,III,Admin-C4I,10,10,0,0,0,0,0,0,10,40,0,30,0,0,0,80,20,0,100,0,70,30
+554,33,187,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,SBCT,III,Command and Control,10,10,0,0,0,0,0,0,10,40,0,30,0,0,0,80,20,0,100,0,70,30
+555,33,189,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,SBCT,III,Logistics Transport,10,20,0,0,0,0,0,0,10,40,0,20,0,0,0,70,30,0,100,0,70,30
+556,33,190,S15,BCT FA BTRY,BCT FA BTRY,BCT Fires,Vignette 4,SBCT,III,Prime Mover,10,10,0,0,0,0,0,0,10,50,0,20,0,0,0,80,20,0,100,0,70,30
+557,34,223,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Admin-C4I,15,10,0,0,10,10,0,0,15,0,20,10,0,0,10,55,45,0,50,50,40,60
+558,34,224,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Command and Control,15,10,0,0,10,10,0,0,15,0,20,10,0,0,10,55,45,0,50,50,40,60
+559,34,193,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Logistics Transport,15,10,0,0,10,10,0,0,15,0,20,10,0,0,10,55,45,0,50,50,40,60
+560,34,194,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Maintenance Contact Truck,15,10,0,0,10,10,0,0,15,0,20,10,0,0,10,55,45,0,50,50,40,60
+561,34,195,S16,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Prime Mover,15,10,0,0,10,10,0,0,15,0,20,10,0,0,10,55,45,0,50,50,40,60
+562,35,198,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Admin-C4I,10,20,5,0,0,5,0,5,5,15,5,10,5,10,5,60,40,0,100,0,90,10
+563,35,199,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,10,20,5,0,0,5,0,5,5,15,5,10,5,10,5,60,40,0,100,0,90,10
+564,35,201,S17,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,10,20,5,0,0,5,0,5,5,15,5,10,5,10,5,60,40,0,90,10,80,20
+565,34,193,S18,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Logistics Transport,8,8,3,4,7,2,4,10,5,7,8,8,10,15,1,64,36,0,80,20,80,20
+566,34,194,S18,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Maintenance Contact Truck,8,4,5,6,5,4,4,8,12,10,5,10,8,10,1,64,36,0,80,20,80,20
+567,35,198,S19,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Admin-C4I,5,5,5,5,5,5,6,8,8,8,8,8,8,8,8,64,36,0,45,55,50,50
+568,35,199,S19,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,5,5,5,5,5,5,6,8,8,8,8,8,8,8,8,64,36,0,45,50,50,50
+569,35,201,S19,BCT BSB HQ,BCT BSB HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,6,5,5,4,5,5,5,8,8,8,8,8,8,8,9,65,35,0,50,50,50,50
+570,36,203,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Admin-C4I,8,0,5,8,10,15,5,13,10,5,8,1,6,2,4,49,51,0,80,20,65,35
+571,36,204,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,5,0,5,5,10,15,5,15,15,5,8,1,5,2,4,55,45,0,100,0,40,60
+572,36,206,S1,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,8,0,5,8,10,15,5,13,10,5,8,1,6,2,4,49,51,0,80,20,70,30
+573,37,209,S20,BCT Transportation CO,BCT Transportation CO,BCT Sustainment,Vignette 4,SBCT,III,Logistics Transport,0,0,0,5,15,15,0,15,0,20,0,10,0,10,10,65,35,0,25,75,80,20
+574,38,210,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,SBCT,III,Admin-C4I,5,10,6,6,6,4,4,15,0,14,0,12,0,12,6,59,41,0,80,20,80,20
+575,38,211,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,SBCT,III,Command and Control,5,5,5,5,5,5,5,10,3,20,13,10,6,3,0,65,35,0,80,20,80,20
+576,38,212,S21,BCT Maintenance CO,BCT Maintenance CO,BCT Sustainment,Vignette 4,SBCT,III,Logistics Transport,5,5,5,5,5,5,5,6,0,20,15,12,6,0,6,65,35,0,80,20,80,20
+577,39,217,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 4,SBCT,III,Ambulance,1,8,3,3,5,8,8,10,10,12,5,10,5,7,5,64,36,0,85,15,60,40
+578,39,218,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 4,SBCT,III,Command and Control,1,8,3,3,5,8,8,10,10,12,5,10,5,7,5,64,36,0,85,15,60,40
+579,39,219,S22,BCT Medical CO,BCT Medical CO,BCT Medical,Vignette 4,SBCT,III,Logistics Transport,1,8,3,3,5,8,8,10,10,12,5,10,5,7,5,64,36,0,60,40,80,20
+580,36,203,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Admin-C4I,8,4,2,3,5,10,11,10,5,11,8,10,5,3,5,57,43,0,50,50,60,40
+581,36,204,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,8,4,2,3,5,10,11,10,5,11,8,10,5,3,5,57,43,0,50,50,50,50
+582,36,206,S23,SBCT HQ,SBCT HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,8,4,2,3,5,10,11,10,5,11,8,10,5,3,5,57,43,0,50,50,70,30
+583,40,221,S24,Infantry (Stryker) CO,Infantry (Stryker) CO,Maneuver,Vignette 4,SBCT,III,Command and Control,5,5,5,5,5,5,10,15,10,10,10,10,0,0,5,60,40,0,90,10,40,60
+584,31,178,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Admin-C4I,13,10,12,11,10,15,6,0,0,3,8,7,3,0,2,23,77,0,100,0,100,0
+585,31,179,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,13,10,12,11,10,15,6,0,0,3,8,7,3,0,2,23,77,0,100,0,100,0
+586,31,180,S25,Cavalry Squadron HQ,Cavalry Squadron HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,13,10,11,12,10,15,6,0,0,3,8,7,3,0,2,23,77,0,100,0,100,0
+587,34,223,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Admin-C4I,5,5,5,0,0,5,0,10,10,10,10,15,10,10,5,80,20,0,100,0,30,70
+588,34,224,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Command and Control,5,5,5,0,0,5,0,10,10,10,10,15,10,10,5,80,20,0,100,0,30,70
+589,34,193,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Logistics Transport,5,5,5,0,0,5,0,10,10,10,10,15,10,10,5,80,20,0,100,0,30,70
+590,34,194,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Maintenance Contact Truck,5,5,5,0,0,5,0,10,10,10,10,15,10,10,5,80,20,0,100,0,30,70
+591,34,195,S26,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Prime Mover,5,5,5,0,0,5,0,10,10,10,10,15,10,10,5,80,20,0,100,0,30,70
+592,32,183,S2,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,2,5,2,7,7,12,12,0,0,31,0,0,22,0,0,53,47,0,100,0,100,0
+593,32,184,S2,Infantry (Stryker) BN HQ,Infantry (Stryker) BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,2,5,2,7,7,12,12,0,0,31,0,0,22,0,0,53,47,0,100,0,100,0
+594,41,226,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,SBCT,III,Command and Control,5,0,0,20,15,20,0,0,10,10,5,10,0,0,5,40,60,0,80,20,90,10
+595,41,227,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,SBCT,III,Gun Truck,5,0,0,20,15,20,0,0,5,10,5,5,5,0,10,40,60,0,80,20,90,10
+596,41,228,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,SBCT,III,Logistics Transport,0,5,0,20,10,25,0,5,10,10,10,0,0,0,5,40,60,0,80,20,90,10
+597,41,229,S4,BCT Engineer CO,BCT Engineer CO,BCT Combat Support,Vignette 4,SBCT,III,Prime Mover,0,5,0,20,10,25,0,5,10,5,10,5,0,0,5,40,60,0,80,20,90,10
+598,42,231,S5,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,7,9,7,7,9,8,1,8,2,10,1,11,8,9,3,52,48,0,80,20,95,5
+599,42,232,S5,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,3,10,3,8,10,7,4,8,4,12,1,11,8,10,1,55,45,0,70,30,95,5
+600,42,233,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Admin-C4I,0,10,0,0,0,0,10,15,10,10,10,15,10,0,10,80,20,0,90,10,30,70
+601,42,231,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Command and Control,0,10,0,0,0,0,10,15,15,0,10,15,10,5,10,80,20,0,90,10,30,70
+602,42,232,S6,BCT Engineer BN HQ,BCT Engineer BN HQ,BCT BN or BDE HQs,Vignette 4,SBCT,III,Logistics Transport,0,10,0,0,0,0,10,15,15,5,5,10,15,5,10,80,20,0,90,10,30,70
+603,43,236,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,SBCT,III,Admin-C4I,0,20,0,0,0,0,0,0,25,0,20,35,0,0,0,80,20,0,90,10,90,10
+604,43,237,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,SBCT,III,Command and Control,0,50,0,0,0,0,30,0,20,0,0,0,0,0,0,20,80,0,90,10,90,10
+605,43,239,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,SBCT,III,Logistics Transport,0,20,0,0,0,0,20,0,0,30,0,30,0,0,0,60,40,0,90,10,100,0
+606,43,240,S7,BCT Signal CO,BCT Signal CO,BCT Combat Support,Vignette 4,SBCT,III,Retrans Vehicle,0,25,0,5,0,0,30,0,10,0,0,30,0,0,0,40,60,0,90,10,80,20
+607,34,223,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Admin-C4I,0,16,0,17,14,20,0,0,0,18,0,15,0,0,0,33,67,0,100,0,0,0
+608,34,224,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Command and Control,0,16,0,17,14,20,0,0,0,18,0,15,0,0,0,33,67,0,100,0,0,0
+609,34,193,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Logistics Transport,0,16,0,17,14,20,0,0,0,18,0,15,0,0,0,33,67,0,100,0,0,0
+610,34,194,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Maintenance Contact Truck,0,14,0,15,12,20,0,0,0,16,0,13,0,10,0,39,61,0,90,10,0,0
+611,34,195,S9,BCT Forward Support CO,BCT Forward Support CO,BCT Sustainment,Vignette 4,SBCT,III,Prime Mover,0,16,0,17,14,20,0,0,0,18,0,15,0,0,0,33,67,0,100,0,0,0
+612,5,16,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,25,0,25,15,15,0,0,0,5,0,0,0,10,0,5,20,80,0,30,70,75,25
+613,5,248,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Gun Truck,20,0,20,10,10,10,0,0,10,0,10,0,10,0,0,30,70,0,70,30,70,30
+614,5,17,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Logistics Transport,25,0,25,15,15,0,0,0,5,0,0,0,5,5,5,20,80,0,30,70,75,25
+615,5,249,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Maintenance Contact Truck,20,0,20,15,15,0,0,0,10,0,0,0,0,10,10,30,70,0,25,75,80,20
+616,5,250,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Prime Mover,20,0,20,10,10,0,0,0,10,0,0,0,10,10,10,40,60,0,40,60,70,30
+617,1,159,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Admin-C4I,50,10,10,20,0,0,0,0,0,0,0,10,0,0,0,10,90,0,0,100,100,0
+618,1,2,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Command and Control,50,10,10,20,0,0,0,0,0,0,0,10,0,0,0,10,90,0,70,30,50,50
+619,1,160,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Gun Truck,50,10,10,20,0,0,0,0,0,0,0,10,0,0,0,10,90,0,70,30,50,50
+620,1,3,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Logistics Transport,50,10,10,20,0,0,0,0,0,0,0,10,0,0,0,10,90,0,70,30,40,60
+621,1,8,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 1,EAB,III,Prime Mover,50,10,10,20,0,0,0,0,0,0,0,10,0,0,0,10,90,0,70,30,40,60
+622,44,252,E12,EAB Ordnance CO (EOD),EAB Ordnance CO (EOD),EAB Combat Support,Vignette 1,EAB,III,Admin-C4I,9,9,9,9,9,5,5,5,6,7,5,5,8,4,5,45,55,0,25,75,90,10
+623,44,253,E12,EAB Ordnance CO (EOD),EAB Ordnance CO (EOD),EAB Combat Support,Vignette 1,EAB,III,Command and Control,8,7,8,8,8,3,3,8,8,8,5,5,8,8,5,55,45,0,50,50,50,50
+624,45,256,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Admin-C4I,10,20,0,10,0,0,0,10,20,0,0,0,15,15,0,60,40,0,40,60,60,40
+625,45,257,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,10,20,0,10,0,0,0,10,20,0,0,0,15,15,0,60,40,0,40,60,60,40
+626,45,258,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Gun Truck,10,20,0,10,0,0,0,10,20,0,0,0,15,15,0,60,40,0,80,20,30,70
+627,45,259,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Intel Collection,10,20,0,10,0,0,0,10,20,0,0,0,15,15,0,60,40,0,80,20,30,70
+628,45,260,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Logistics Transport,10,20,0,10,0,0,0,10,20,0,0,0,15,15,0,60,40,0,60,40,30,70
+629,46,262,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 1,EAB,III,Admin-C4I,15,10,10,10,10,10,10,5,10,0,0,0,10,0,0,25,75,0,25,75,75,25
+630,46,263,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,10,10,10,10,10,10,20,0,10,0,0,0,10,0,0,20,80,0,40,60,60,40
+631,46,265,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 1,EAB,III,Logistics Transport,5,5,5,5,5,5,5,10,5,10,10,10,10,10,0,65,35,0,40,60,75,25
+632,46,266,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 1,EAB,III,Retrans Vehicle,5,5,5,5,5,10,10,10,15,5,10,0,10,5,0,55,45,0,75,25,50,50
+633,47,268,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Admin-C4I,4,10,1,4,1,5,2,10,2,20,20,5,6,6,4,73,27,0,0,100,80,20
+634,47,269,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Command and Control,5,20,0,0,0,5,5,15,20,5,10,0,5,0,10,65,35,0,10,90,30,70
+635,47,270,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Gun Truck,5,10,3,10,0,0,0,10,15,10,15,5,8,4,5,72,28,0,20,80,30,70
+636,47,271,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Logistics Transport,0,10,0,0,0,0,0,10,10,25,20,10,5,5,5,90,10,0,10,90,30,70
+637,47,272,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Prime Mover,4,10,1,3,1,5,2,10,10,10,20,10,6,3,5,74,26,0,10,90,30,70
+638,47,269,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Command and Control,10,10,0,10,10,0,10,5,5,10,5,10,5,5,5,50,50,0,75,25,25,75
+639,47,270,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Gun Truck,10,30,10,10,2,5,5,5,5,5,0,3,5,5,0,28,72,0,75,25,25,75
+640,47,271,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Logistics Transport,10,10,10,10,2,10,5,5,10,5,2,5,9,2,5,43,57,0,50,50,75,25
+641,47,274,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Maintenance Contact Truck,5,10,5,5,0,5,5,5,20,5,5,5,10,10,5,65,35,0,50,50,50,50
+642,47,272,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 1,EAB,III,Prime Mover,5,20,5,5,5,10,5,5,10,2,1,2,10,10,5,45,55,0,50,50,75,25
+643,45,256,E5,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Admin-C4I,30,30,0,10,0,20,0,0,10,0,0,0,0,0,0,10,90,0,40,60,80,20
+644,45,257,E5,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,30,30,0,10,0,20,0,0,10,0,0,0,0,0,0,10,90,0,40,60,80,20
+645,45,258,E5,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Gun Truck,30,30,0,10,0,20,0,0,10,0,0,0,0,0,0,10,90,0,50,50,80,20
+646,45,260,E5,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 1,EAB,III,Logistics Transport,30,30,0,10,0,20,0,0,10,0,0,0,0,0,0,10,90,0,40,60,80,20
+647,49,277,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,10,20,0,0,0,0,10,15,15,0,15,10,0,0,5,60,40,0,10,90,80,20
+648,49,278,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 1,EAB,III,Logistics Transport,10,10,0,0,10,0,10,15,20,0,10,5,5,5,0,60,40,0,10,90,80,20
+649,49,279,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 1,EAB,III,Maintenance Contact Truck,10,20,0,0,0,0,10,15,15,0,15,10,0,0,5,60,40,0,20,80,80,20
+650,49,280,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 1,EAB,III,Recon,10,10,0,0,5,0,20,15,10,0,15,10,0,0,5,55,45,0,40,60,50,50
+651,20,105,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,10,15,10,15,5,0,0,0,5,15,5,10,5,5,0,45,55,0,25,75,80,20
+652,20,106,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 1,EAB,III,Gun Truck,10,15,10,15,5,0,0,0,5,15,5,10,5,5,0,45,55,0,25,75,80,20
+653,20,107,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 1,EAB,III,Military Police Operations,10,15,10,15,5,0,0,0,5,15,5,10,5,5,0,45,55,0,25,75,80,20
+654,20,108,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 1,EAB,III,Recon,10,15,10,15,5,0,0,0,5,15,5,10,5,5,0,45,55,0,25,75,80,20
+655,50,283,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 1,EAB,III,Ambulance,20,0,0,0,25,0,0,0,10,0,0,0,20,15,10,55,45,0,25,75,50,50
+656,50,284,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 1,EAB,III,Command and Control,30,0,0,0,30,0,0,0,0,0,0,0,30,0,10,40,60,0,20,80,20,80
+657,50,286,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 1,EAB,III,Logistics Transport,30,0,0,0,30,0,0,0,0,0,0,0,30,0,10,40,60,0,25,75,20,80
+658,5,16,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Command and Control,25,0,25,10,10,0,0,0,0,0,0,20,0,0,10,30,70,0,0,100,100,0
+659,5,17,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Logistics Transport,35,20,35,10,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,100,100,0
+660,5,249,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Maintenance Contact Truck,30,20,30,20,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,100,100,0
+661,5,289,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 1,EAB,III,Recon,20,10,20,10,0,0,0,0,10,0,0,0,10,0,20,40,60,0,0,100,100,0
+662,5,16,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,25,0,25,0,0,0,0,10,0,0,10,0,10,10,10,50,50,0,80,20,75,25
+663,5,248,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Gun Truck,20,0,20,20,0,0,0,10,0,0,0,0,10,10,10,40,60,0,80,20,50,50
+664,5,17,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Logistics Transport,20,0,20,20,20,0,0,5,0,0,5,0,5,5,0,20,80,0,80,20,75,25
+665,5,249,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Maintenance Contact Truck,15,0,15,15,10,0,0,10,10,0,0,0,10,10,5,45,55,0,80,20,85,15
+666,5,250,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Prime Mover,15,0,15,15,15,10,0,0,5,0,5,0,10,5,5,30,70,0,80,20,60,40
+667,1,159,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Admin-C4I,30,20,10,20,0,0,0,0,0,0,0,20,0,0,0,20,80,0,70,30,50,50
+668,1,2,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Command and Control,30,20,0,10,0,0,0,20,0,0,0,20,0,0,0,40,60,0,70,30,60,40
+669,1,160,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Gun Truck,30,10,10,10,0,0,0,20,0,0,0,20,0,0,0,40,60,0,50,50,60,40
+670,1,3,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Logistics Transport,30,10,10,10,0,0,0,20,0,0,0,20,0,0,0,40,60,0,50,50,60,40
+671,1,8,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 2,EAB,III,Prime Mover,30,10,10,10,0,0,0,20,0,0,0,20,0,0,0,40,60,0,50,50,60,40
+672,44,252,E12,EAB Ordnance CO (EOD),EAB Ordnance CO (EOD),EAB Combat Support,Vignette 2,EAB,III,Admin-C4I,8,8,8,8,8,7,5,7,6,6,5,7,5,7,5,48,52,0,25,75,90,10
+673,44,253,E12,EAB Ordnance CO (EOD),EAB Ordnance CO (EOD),EAB Combat Support,Vignette 2,EAB,III,Command and Control,8,8,8,8,8,7,5,7,6,6,5,7,5,7,5,48,52,0,10,90,90,10
+674,45,256,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Admin-C4I,15,20,0,0,0,10,0,15,15,0,10,0,0,15,0,55,45,0,15,85,80,20
+675,45,257,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,10,20,0,5,0,10,0,15,10,10,10,0,0,10,0,55,45,0,20,80,70,30
+676,45,258,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Gun Truck,10,20,0,10,0,0,0,0,15,10,10,10,5,10,0,60,40,0,25,75,70,30
+677,45,259,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Intel Collection,0,20,0,10,0,10,0,10,15,0,10,10,5,10,0,60,40,0,25,75,70,30
+678,45,260,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Logistics Transport,10,20,0,0,0,5,0,10,20,0,10,5,10,10,0,65,35,0,20,80,80,20
+679,46,262,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 2,EAB,III,Admin-C4I,10,5,10,10,10,10,5,10,5,0,10,5,10,0,0,40,60,0,25,75,75,25
+680,46,263,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,10,5,10,10,10,10,5,4,7,7,7,4,6,5,0,40,60,0,25,75,75,25
+681,46,265,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 2,EAB,III,Logistics Transport,10,5,10,10,5,10,0,10,5,11,9,3,6,4,2,50,50,0,60,40,50,50
+682,46,266,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 2,EAB,III,Retrans Vehicle,10,2,5,10,3,10,5,5,10,7,11,3,10,7,2,55,45,0,60,40,50,50
+683,47,268,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Admin-C4I,10,10,0,5,0,5,0,15,15,5,15,10,0,5,5,70,30,0,0,100,90,10
+684,47,269,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Command and Control,10,15,0,10,0,0,0,15,15,5,15,10,0,5,0,65,35,0,0,100,90,10
+685,47,270,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Gun Truck,15,15,10,10,0,0,0,15,10,5,15,0,5,0,0,50,50,0,30,70,50,50
+686,47,271,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Logistics Transport,15,15,0,15,0,0,0,10,20,0,20,5,0,0,0,55,45,0,30,70,50,50
+687,47,272,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Prime Mover,10,15,0,15,0,0,0,15,20,0,20,5,0,0,0,60,40,0,0,100,50,50
+688,47,269,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Command and Control,5,10,0,5,0,0,0,10,20,10,10,10,10,10,0,80,20,0,50,50,50,50
+689,47,270,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Gun Truck,5,5,5,5,0,5,0,10,20,10,5,10,10,10,0,75,25,0,50,50,50,50
+690,47,271,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Logistics Transport,5,10,5,5,0,5,5,5,30,10,0,5,10,5,0,65,35,0,0,100,100,0
+691,47,274,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Maintenance Contact Truck,10,10,5,5,0,0,0,0,20,20,5,5,10,10,0,70,30,0,0,100,100,0
+692,47,272,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 2,EAB,III,Prime Mover,5,10,5,0,0,5,0,10,30,5,5,0,20,5,0,75,25,0,0,100,100,0
+693,45,256,E5,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Admin-C4I,15,20,0,10,0,10,0,15,5,10,0,15,0,0,0,45,55,0,30,70,80,20
+694,45,257,E5,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,10,20,0,10,0,10,0,15,10,15,0,10,0,0,0,50,50,0,30,70,80,20
+695,45,258,E5,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Gun Truck,10,20,0,0,0,10,0,10,10,15,10,10,0,5,0,60,40,0,30,70,80,20
+696,45,260,E5,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 2,EAB,III,Logistics Transport,10,20,0,10,0,10,0,10,10,10,10,0,10,0,0,50,50,0,30,70,80,20
+697,49,277,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,20,20,10,0,0,0,0,10,10,0,10,10,10,0,0,50,50,0,5,95,95,5
+698,49,278,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 2,EAB,III,Logistics Transport,15,15,5,0,5,0,0,10,10,0,10,10,10,10,0,60,40,0,5,95,95,5
+699,49,279,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 2,EAB,III,Maintenance Contact Truck,15,15,5,0,10,0,0,10,10,0,10,5,10,10,0,55,45,0,5,95,95,5
+700,49,280,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 2,EAB,III,Recon,15,15,10,0,10,0,0,5,15,0,10,10,0,10,0,50,50,0,5,95,90,10
+701,20,105,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,10,15,5,15,5,5,0,5,0,15,5,5,5,10,0,45,55,0,75,25,95,5
+702,20,106,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 2,EAB,III,Gun Truck,10,15,5,15,5,5,0,5,0,15,5,5,5,10,0,45,55,0,50,50,95,5
+703,20,107,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 2,EAB,III,Military Police Operations,10,15,5,15,5,5,0,5,0,15,5,5,5,10,0,45,55,0,15,85,95,5
+704,20,108,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 2,EAB,III,Recon,10,15,5,15,5,5,0,5,0,15,5,5,5,10,0,45,55,0,75,25,95,5
+705,50,283,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 2,EAB,III,Ambulance,15,0,5,0,10,0,0,30,0,0,20,10,10,0,0,70,30,0,10,90,90,10
+706,50,284,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 2,EAB,III,Command and Control,15,0,0,5,10,0,0,10,0,15,20,10,10,5,0,70,30,0,0,100,100,0
+707,50,286,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 2,EAB,III,Logistics Transport,15,0,0,5,10,0,0,10,0,15,20,10,10,5,0,70,30,0,5,95,95,5
+708,5,16,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Command and Control,30,20,30,20,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,100,100,0
+709,5,17,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Logistics Transport,30,20,30,20,0,0,0,0,0,0,0,0,0,0,0,0,100,0,20,80,100,0
+710,5,249,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Maintenance Contact Truck,30,20,30,20,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,100,100,0
+711,5,289,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 2,EAB,III,Recon,25,10,25,10,0,0,0,0,0,0,10,0,10,0,10,30,70,0,0,100,100,0
+712,5,16,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Command and Control,15,0,15,15,0,10,15,10,0,0,0,0,10,0,10,30,70,0,40,60,80,20
+713,5,248,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Gun Truck,15,0,15,15,0,10,15,10,0,0,0,0,10,0,10,30,70,0,50,50,75,25
+714,5,17,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Logistics Transport,15,0,15,15,0,10,15,10,0,0,0,0,10,0,10,30,70,0,25,75,80,20
+715,5,249,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Maintenance Contact Truck,15,0,15,10,0,15,15,10,0,0,0,0,10,0,10,30,70,0,30,70,70,30
+716,5,250,E10,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Prime Mover,15,0,15,10,5,15,15,5,0,0,0,0,10,0,10,25,75,0,30,70,70,30
+717,1,159,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Admin-C4I,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,100,0,50,50,99,1
+718,1,2,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Command and Control,30,10,0,10,0,0,0,30,0,0,10,10,0,0,0,50,50,0,50,50,99,1
+719,1,160,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Gun Truck,30,10,0,10,0,0,0,30,0,0,10,10,0,0,0,50,50,0,80,20,99,1
+720,1,3,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Logistics Transport,30,10,0,10,0,0,0,30,0,0,10,10,0,0,0,50,50,0,80,20,99,1
+721,1,8,E11,EAB Transportation CO,EAB Transportation CO,EAB Sustainment,Vignette 4,EAB,III,Prime Mover,30,10,0,10,0,0,0,30,0,0,10,10,0,0,0,50,50,0,80,20,99,1
+722,44,252,E12,EAB Ordnance CO (EOD),EAB Ordnance CO (EOD),EAB Combat Support,Vignette 4,EAB,III,Admin-C4I,8,8,8,8,8,8,7,6,5,5,6,6,5,7,5,45,55,0,20,80,90,10
+723,44,253,E12,EAB Ordnance CO (EOD),EAB Ordnance CO (EOD),EAB Combat Support,Vignette 4,EAB,III,Command and Control,8,8,8,8,8,8,7,6,5,5,6,6,5,7,5,45,55,0,15,85,75,25
+724,45,256,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 4,EAB,III,Admin-C4I,0,20,0,10,0,5,0,15,10,10,15,0,5,10,0,65,35,0,90,10,40,60
+725,45,257,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 4,EAB,III,Command and Control,0,20,0,5,0,15,0,15,10,10,10,15,0,0,0,60,40,0,90,10,40,60
+726,45,258,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 4,EAB,III,Gun Truck,0,20,0,0,0,15,0,15,10,0,15,10,5,10,0,65,35,0,90,10,40,60
+727,45,259,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 4,EAB,III,Intel Collection,0,20,0,0,0,15,0,15,10,10,10,10,0,10,0,65,35,0,90,10,40,60
+728,45,260,E13,EAB MI CO,EAB MI CO,EAB Combat Support,Vignette 4,EAB,III,Logistics Transport,0,20,0,0,0,15,0,15,10,10,10,10,10,0,0,65,35,0,90,10,40,60
+729,46,262,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 4,EAB,III,Admin-C4I,10,5,10,10,5,10,5,5,10,10,0,5,10,5,0,45,55,0,40,60,100,0
+730,46,263,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 4,EAB,III,Command and Control,10,5,10,10,5,10,5,5,10,10,0,5,10,5,0,45,55,0,40,60,100,0
+731,46,265,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 4,EAB,III,Logistics Transport,10,5,5,10,5,5,0,5,5,10,10,10,10,5,5,60,40,0,60,40,95,5
+732,46,266,E1,EAB Signal CO,EAB Signal CO,EAB Combat Support,Vignette 4,EAB,III,Retrans Vehicle,10,5,5,10,5,10,5,5,10,5,10,5,10,5,0,50,50,0,60,40,95,5
+733,47,268,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Admin-C4I,0,15,0,0,0,20,0,15,15,0,15,15,0,0,5,65,35,0,0,100,95,5
+734,47,269,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Command and Control,0,15,0,0,0,20,0,15,15,0,15,15,0,0,5,65,35,0,0,100,60,40
+735,47,270,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Gun Truck,0,15,0,5,0,15,0,15,15,0,15,15,0,0,5,65,35,0,10,90,60,40
+736,47,271,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Logistics Transport,0,15,0,0,0,20,0,15,15,0,15,15,0,5,0,65,35,0,0,100,70,30
+737,47,272,E2,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Prime Mover,0,0,0,0,0,20,10,15,15,0,15,15,0,10,0,70,30,0,10,90,20,80
+738,47,269,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Command and Control,5,20,5,5,0,5,10,5,10,15,5,10,5,0,0,50,50,0,60,40,50,50
+739,47,270,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Gun Truck,5,20,5,5,0,5,10,5,10,10,5,10,5,5,0,50,50,0,60,40,50,50
+740,47,271,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Logistics Transport,5,10,5,5,5,10,10,5,5,10,10,10,5,5,0,50,50,0,55,45,50,50
+741,47,274,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Maintenance Contact Truck,5,10,5,5,0,5,5,5,10,20,5,10,10,5,0,65,35,0,55,45,50,50
+742,47,272,E3,EAB FA BTRY,EAB FA BTRY,EAB Fires,Vignette 4,EAB,III,Prime Mover,5,15,5,5,0,10,10,5,10,10,5,10,5,5,0,50,50,0,55,45,75,25
+743,49,277,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 4,EAB,III,Command and Control,20,20,10,10,10,5,5,0,5,5,5,5,0,0,0,20,80,0,20,80,90,10
+744,49,278,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 4,EAB,III,Logistics Transport,10,10,10,5,10,5,5,5,10,5,10,5,5,5,0,45,55,0,10,90,90,10
+745,49,279,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 4,EAB,III,Maintenance Contact Truck,20,20,10,10,10,5,5,0,5,5,5,5,0,0,0,20,80,0,10,90,90,10
+746,49,280,E6,EAB CBRN CO,EAB CBRN CO,EAB Combat Support,Vignette 4,EAB,III,Recon,15,15,10,10,10,0,15,0,5,0,10,10,0,0,0,25,75,0,30,70,50,50
+747,20,105,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 4,EAB,III,Command and Control,5,5,5,5,5,0,0,15,10,10,15,10,10,5,0,75,25,0,10,90,90,10
+748,20,106,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 4,EAB,III,Gun Truck,5,5,5,5,5,0,0,15,10,10,15,10,10,5,0,75,25,0,10,90,90,10
+749,20,107,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 4,EAB,III,Military Police Operations,5,5,5,5,5,0,0,15,10,10,15,10,10,5,0,75,25,0,10,90,90,10
+750,20,108,E7,Military Police CO,Military Police CO,EAB Combat Support,Vignette 4,EAB,III,Recon,5,5,5,5,5,0,0,15,10,10,15,10,10,5,0,75,25,0,10,90,90,10
+751,50,283,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 4,EAB,III,Ambulance,5,10,5,0,0,0,0,0,0,15,15,15,15,15,5,80,20,0,60,40,40,60
+752,50,284,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 4,EAB,III,Command and Control,5,10,5,0,0,0,0,0,0,15,15,15,15,15,5,80,20,0,10,90,75,25
+753,50,286,E8,EAB Medical CO,EAB Medical CO,EAB Medical,Vignette 4,EAB,III,Logistics Transport,5,10,5,0,0,0,0,0,0,15,15,15,15,15,5,80,20,0,10,90,80,20
+754,5,16,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Command and Control,20,10,10,20,20,0,0,0,10,0,0,0,10,0,0,20,80,0,0,100,100,0
+755,5,17,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Logistics Transport,20,10,10,20,20,0,0,0,0,10,0,0,10,0,0,20,80,0,0,100,100,0
+756,5,249,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Maintenance Contact Truck,20,10,10,20,20,0,0,0,10,0,0,0,10,0,0,20,80,0,0,100,100,0
+757,5,289,E9,EAB Engineer CO,EAB Engineer CO,EAB Combat Support,Vignette 4,EAB,III,Recon,20,10,10,20,10,0,0,0,10,10,0,0,10,0,0,30,70,0,0,100,100,0
+758,48,275,D1,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 1,EAB,III,Command and Control,5,0,0,0,30,0,0,10,10,0,20,0,20,5,0,65,35,0,20,80,20,80
+759,48,276,D1,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 1,EAB,III,Logistics Transport,5,0,0,0,30,0,0,10,10,0,20,0,20,5,0,65,35,0,75,25,90,10
+760,48,275,D2,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 1,EAB,III,Command and Control,8,10,9,8,7,6,0,7,9,6,4,7,7,7,5,48,52,0,65,35,85,15
+761,48,276,D2,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 1,EAB,III,Logistics Transport,8,10,8,6,7,7,4,6,8,6,6,4,7,7,6,50,50,0,50,50,50,50
+762,48,275,D1,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 2,EAB,III,Command and Control,20,10,5,3,5,2,0,5,10,5,0,20,10,5,0,55,45,0,40,60,80,20
+763,48,276,D1,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 2,EAB,III,Logistics Transport,20,10,5,3,5,2,0,5,10,5,0,20,10,5,0,55,45,0,95,5,40,60
+764,48,275,D2,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 2,EAB,III,Command and Control,8,10,9,8,9,5,4,8,3,6,8,8,6,6,2,47,53,0,90,10,65,35
+765,48,276,D2,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 2,EAB,III,Logistics Transport,7,10,9,8,8,6,3,8,3,7,9,7,7,5,3,49,51,0,50,50,10,90
+766,48,275,D1,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 4,EAB,III,Command and Control,0,0,0,0,0,25,10,5,10,0,20,0,15,5,10,65,35,0,70,30,20,80
+767,48,276,D1,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 4,EAB,III,Logistics Transport,0,0,0,0,0,25,10,5,10,0,20,0,15,5,10,65,35,0,60,40,80,20
+768,48,275,D2,EAB ADA BTRY,EAB ADA BTRY,EAB Fires,Vignette 4,EAB,III,Command and Control,6,10,7,6,7,6,7,8,4,8,6,8,6,6,5,51,49,0,80,20,90,10
+769,51,291,D5,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 1,IBCT,III,Ambulance,0,20,10,0,0,10,0,15,15,0,0,0,10,10,10,60,40,0,90,10,40,60
+770,51,291,D5,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 2,IBCT,III,Ambulance,10,10,10,10,10,10,5,5,0,10,10,10,0,0,0,35,65,0,90,10,10,90
+771,51,291,D5,Infantry (LI) BN HQ,Infantry (LI) BN HQ,BCT BN or BDE HQs,Vignette 4,IBCT,III,Ambulance,15,15,15,15,0,10,0,0,0,0,0,20,0,10,0,30,70,0,90,10,90,10
