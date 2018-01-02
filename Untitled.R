@@ -125,3 +125,20 @@ summary(step_model_ibct)
 
 outliers2 = boxplot(twv_no_outlier$force_protection ~ twv_no_outlier$on_road)
 outliers2
+
+
+
+require(splines)
+require(splines2)
+
+off_road_basis = bs(twv_raw$off_road, df = 10)
+lm1 = lm(force_protection ~ off_road_basis, data = twv_raw)
+
+summary(lm1)
+
+plot(twv_raw$off_road,twv_raw$force_protection,pch=19,cex=0.5)
+points(predict(lm1,newdata=data.frame(off_road = c(1:100))),col="red",pch=19,cex=0.5)
+
+loess = loess(force_protection ~ off_road, data = twv_raw, span = 5.0)
+summary(loess)
+plot(loess)
